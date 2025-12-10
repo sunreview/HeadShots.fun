@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { createCheckoutSession } from "@/lib/stripe";
+import { createCheckoutSession } from "@/lib/paddle";
 import { prisma } from "@/lib/db";
 
 export async function POST(req: Request) {
@@ -12,22 +12,12 @@ export async function POST(req: Request) {
 
     const session = await createCheckoutSession(amount, quantity, description, userId, emailAddress);
 
-    if (!session || !session.id || !session.url) {
+
+    if (!session || !session.transactionId || !session.url) {
       throw new Error("Failed to create checkout session");
     }
 
-    // 记录交易到数据库
-    await prisma.stripeTransaction.create({
-      data: {
-        userId,
-        stripeSessionId: session.id,
-        stripePaymentIntentId: session.payment_intent as string || null,
-        amount: Math.round(amount * 100),
-        status: 'pending',
-      },
-    });
-
-    return NextResponse.json({ checkoutUrl: session.url });
+    return NextResponse.json({ checkoutUrl: session.url , transactionId: session.transactionId});
   } catch (error) {
     console.error("Error creating checkout session:", error);
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });

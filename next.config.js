@@ -7,12 +7,14 @@ import("./src/env.mjs");
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "standalone",
+  productionBrowserSourceMaps: true,
   reactStrictMode: true,
   swcMinify: true,
   images: {
     remotePatterns: [
       {
         protocol: "https",
+        
         hostname: "avatars.githubusercontent.com",
       },
       {

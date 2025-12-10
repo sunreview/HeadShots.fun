@@ -50,20 +50,20 @@ export const footerLinks: SidebarNavItem[] = [
       { title: "Privacy", href: "/privacy" },
     ],
   },
-  {
-    title: "Ullr AI Products",
-    items: [
-      { title: "PixMiller", href: "https://pixmiller.com" },
-      { title: "HeadShots fun", href: "https://headshot.cv" },
-      { title: "Ullr AI Lab", href: "https://ullrai.com" },
-    ],
-  },
+  // {
+  //   title: "Ullr AI Products",
+  //   items: [
+  //     { title: "PixMiller", href: "https://pixmiller.com" },
+  //     { title: "HeadShots fun", href: "https://headshot.cv" },
+  //     { title: "Ullr AI Lab", href: "https://ullrai.com" },
+  //   ],
+  // },
   {
     title: "Resources",
     items: [
       { title: "Pricing", href: "/pricing" },
       { title: "Styles", href: "/generator-styles" },
-      { title: "Blog", href: "/blog" },
+      // { title: "Blog", href: "/blog" },
     ],
   },
 ];

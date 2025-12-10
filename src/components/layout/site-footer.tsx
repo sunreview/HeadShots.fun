@@ -46,7 +46,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
 
       <div className="border-t py-4">
         <div className="container flex max-w-6xl items-center justify-between">
-          <div className="text-left text-sm text-muted-foreground">
+          {/* <div className="text-left text-sm text-muted-foreground">
             <span className="font-medium">{t('built_by')}{" "}</span>
             <Link
               href="https://headshot.cv/?from=opensource-footer"
@@ -73,7 +73,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
             >
               Website Carbon
             </Link>
-          </div>
+          </div> */}
 
           <div className="flex items-center gap-3">
             <LocaleSwitcher />
@@ -83,7 +83,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
             >
-              <Icons.github className="size-5" />
+              {/* <Icons.github className="size-5" /> */}
             </Link>
             <ModeToggle />
           </div>

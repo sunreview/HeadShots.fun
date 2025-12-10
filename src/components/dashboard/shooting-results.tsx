@@ -29,9 +29,10 @@ interface ShootingResultsProps {
 }
 
 const downloadImage = async (imageUrl: string) => {
-    const response = await fetch(imageUrl, {
-        method: 'GET',
-        mode: 'cors',
+    const response = await fetch('/api/proxy-image', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url: imageUrl }),
     });
     const blob = await response.blob();
     const url = window.URL.createObjectURL(blob);

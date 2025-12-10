@@ -24,7 +24,7 @@ export function PaymentStatus() {
             return;
         }
 
-        fetch(`/api/stripe/check-payment-status?session_id=${sessionId}`)
+        fetch(`/api/paddle/check-payment-status?session_id=${sessionId}`)
             .then(response => response.json())
             .then(data => {
                 if (data.error) {

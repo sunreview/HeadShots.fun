@@ -16,6 +16,7 @@ const s3Client = new S3Client({
         accessKeyId: CLOUDFLARE_R2_ACCESS_KEY_ID,
         secretAccessKey: CLOUDFLARE_R2_SECRET_ACCESS_KEY,
     },
+    forcePathStyle: true,
 });
 
 // 定义一个新的接口来扩展 NextRequest

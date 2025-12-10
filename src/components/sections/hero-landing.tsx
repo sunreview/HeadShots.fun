@@ -11,7 +11,7 @@ export default function HeroLanding() {
   return (
     <section className="space-y-6 py-12 sm:py-20 lg:py-20">
       <div className="container flex max-w-5xl flex-col items-center gap-5 text-center">
-        <Link
+        {/* <Link
           href="https://github.com/UllrAI/HeadShots.fun"
           className={cn(
             buttonVariants({ variant: "outline", size: "sm", rounded: "full" }),
@@ -25,7 +25,7 @@ export default function HeroLanding() {
           HeadShots.fun is open source on
           <Icons.github className="mx-1 size-3" />
           <span className="hidden md:inline">GitHub now!</span>
-        </Link>
+        </Link> */}
 
         <h1 className="text-balance font-urban text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-[66px]">
           {t("fun_pro_for_every_occasion")}

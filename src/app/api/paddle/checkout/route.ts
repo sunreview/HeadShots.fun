@@ -1,4 +1,4 @@
-import { stripe } from "@/lib/stripe";
+import { paddle } from "@/lib/paddle";
 import { NextResponse } from "next/server";
 import { env } from "@/env.mjs";
 

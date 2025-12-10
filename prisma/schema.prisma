@@ -63,7 +63,7 @@ model User {
   sessions Session[]
   studios Studio[]
   transactions CreditTransaction[] // 关联到 CreditTransaction 模型
-  stripeTransactions StripeTransaction[]
+  paddleTransactions PaddleTransaction[]
 
   @@map(name: "users")
 }
@@ -124,16 +124,19 @@ enum TransactionType {
 
 // 添加以下模型到文件末尾
 
-model StripeTransaction {
-  id                    String   @id @default(cuid())
-  userId                String
-  user                  User     @relation(fields: [userId], references: [id])
-  stripeSessionId       String   @unique
-  stripePaymentIntentId String?
-  amount                Int
-  status                String
-  createdAt             DateTime @default(now())
-  updatedAt             DateTime @updatedAt
+model PaddleTransaction {
+  id                   String   @id @default(cuid())
+  userId               String
+  user                 User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  paddleTransactionId  String   @unique
+  paddlePaymentId      String?
+  amount               Float    // Paddle 使用浮点数
+  credits              Int      // 购买的积分数量
+  status               String   // pending, completed, failed
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
 
-  @@map(name: "stripe_transactions")
+  @@index([userId])
+  @@index([paddleTransactionId])
+  @@map(name: "paddle_transactions")
 }

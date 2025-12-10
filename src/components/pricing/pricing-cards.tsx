@@ -1,15 +1,15 @@
 "use client";
-
+import { initializePaddle, Paddle } from '@paddle/paddle-js'
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { HeaderSection } from "@/components/shared/header-section";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { useTranslations } from 'next-intl';
+import { useTranslations,useLocale } from 'next-intl';
 
 interface PricingCardsProps {
   pricingData: Array<{
@@ -24,17 +24,40 @@ interface PricingCardsProps {
 export function PricingCards({ pricingData, userId, emailAddress }: PricingCardsProps) {
   const router = useRouter();
   const [loadingPlan, setLoadingPlan] = useState<number | null>(null);
+  const [paddle, setPaddle] = useState<Paddle | null>(null); // ✅ 添加 Paddle state
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const t = useTranslations('PricingPage');
+  const locale = useLocale();
+
+  useEffect(() => {
+    initializePaddle({
+      environment: 'sandbox', // 生产环境改成 'production'
+      token: process.env.NEXT_PUBLIC_PADDLE_CLIENT_TOKEN!,
+    }).then((paddleInstance) => {
+      if (paddleInstance) {
+        setPaddle(paddleInstance);
+        console.log('✅ Paddle 初始化成功');
+      }
+    }).catch((error) => {
+      console.error('❌ Paddle 初始化失败:', error);
+    });
+  }, []);
+
   const handlePurchase = async (plan: typeof pricingData[0], index: number) => {
     if (!userId) {
       toast.error("Please sign in to purchase credits");
       return;
     }
 
+        // ✅ 检查 Paddle 是否已加载
+    if (!paddle) {
+      toast.error("Payment system is loading, please try again in a moment");
+      return;
+    }
+
     setLoadingPlan(index);
     try {
-      const response = await fetch("/api/stripe/create-checkout", {
+      const response = await fetch("/api/paddle/create-checkout", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -48,18 +71,42 @@ export function PricingCards({ pricingData, userId, emailAddress }: PricingCards
         }),
       });
 
+      // console.debug("response",response.json);
+
       if (!response.ok) {
         throw new Error("Failed to create checkout session");
       }
 
-      const { checkoutUrl } = await response.json();
+      // ✅ 修复：正确获取 transactionId
+      const data = await response.json();
+      const transactionId =  data.id || data.transactionId; // 兼容两种返回格式
 
-      if (!checkoutUrl) {
-        throw new Error("Invalid checkout URL");
+      console.log("✅ Transaction ID:", transactionId);
+
+      if (!transactionId) {
+        throw new Error("Invalid transaction ID");
       }
 
+      // if (!checkoutUrl) {
+      //   throw new Error("Invalid checkout URL");
+      // }
+
       // 直接重定向 Stripe Checkout 页面
-      window.location.href = checkoutUrl;
+      // window.location.href = checkoutUrl;
+
+      console.debug("locale",locale);
+
+      paddle.Checkout.open({
+      transactionId: transactionId,
+      settings: {
+          // 可选：支付成功后跳转
+          locale: locale,
+          successUrl: `${window.location.origin}/payment-status?session_id=${transactionId}`,
+        },
+      });
+
+      console.log("✅ Paddle checkout opened");
+
     } catch (error) {
       console.error("Error creating checkout session:", error);
       toast.error("Failed to initiate checkout. Please try again.");
@@ -111,6 +158,7 @@ export function PricingCards({ pricingData, userId, emailAddress }: PricingCards
                 index={index}
                 handlePurchase={handlePurchase}
                 isLoading={loadingPlan === index}
+                paddleReady={!!paddle} // ✅ 传递 Paddle 状态
               />
             ))}
           </div>
@@ -134,7 +182,7 @@ export function PricingCards({ pricingData, userId, emailAddress }: PricingCards
   );
 }
 
-function PricingCard({ plan, index, handlePurchase, isLoading }) {
+function PricingCard({ plan, index, handlePurchase, isLoading , paddleReady}) {
   const t = useTranslations('PricingPage');
 
   return (
@@ -164,9 +212,9 @@ function PricingCard({ plan, index, handlePurchase, isLoading }) {
           className="w-full"
           onClick={() => handlePurchase(plan, index)}
           variant={index === 2 ? "default" : "outline"}
-          disabled={isLoading}
+          disabled={isLoading || !paddleReady}
         >
-          {isLoading ? t('processing') : t('purchase')}
+          {!paddleReady ? t('loading') || 'Loading...' : isLoading ? t('processing') : t('purchase')}
         </Button>
       </CardFooter>
     </Card>
