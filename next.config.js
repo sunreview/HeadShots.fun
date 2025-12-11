@@ -39,6 +39,7 @@ const nextConfig = {
       },
     ],
   },
+  unoptimized: true,
   experimental: {
     serverComponentsExternalPackages: ["@prisma/client"],
   },
