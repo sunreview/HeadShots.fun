@@ -26,12 +26,12 @@ export async function openCustomerPortal(
     }
 
     if (userStripeId) {
-      // const stripeSession = await paddle.billingPortal.sessions.create({
-      //   customer: userStripeId,
-      //   return_url: billingUrl,
-      // });
+      const stripeSession = await paddle.billingPortal.sessions.create({
+        customer: userStripeId,
+        return_url: billingUrl,
+      });
 
-      // redirectUrl = stripeSession.url as string;
+      redirectUrl = stripeSession.url as string;
     }
   } catch (error) {
     throw new Error("Failed to generate user stripe session");
