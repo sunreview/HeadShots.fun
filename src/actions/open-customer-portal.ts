@@ -3,7 +3,7 @@
 import { redirect } from "next/navigation";
 import { auth } from "@/auth";
 
-import { stripe } from "@/lib/paddle";
+import { paddle } from "@/lib/paddle";
 import { absoluteUrl } from "@/lib/utils";
 
 export type responseAction = {
@@ -26,12 +26,12 @@ export async function openCustomerPortal(
     }
 
     if (userStripeId) {
-      const stripeSession = await stripe.billingPortal.sessions.create({
-        customer: userStripeId,
-        return_url: billingUrl,
-      });
+      // const stripeSession = await paddle.billingPortal.sessions.create({
+      //   customer: userStripeId,
+      //   return_url: billingUrl,
+      // });
 
-      redirectUrl = stripeSession.url as string;
+      // redirectUrl = stripeSession.url as string;
     }
   } catch (error) {
     throw new Error("Failed to generate user stripe session");
