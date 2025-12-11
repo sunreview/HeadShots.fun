@@ -9,7 +9,7 @@ import { prisma } from "@/lib/db";
 import { Icons } from "@/components/shared/icons";
 
 export const metadata = constructMetadata({
-  title: "Admin – HeadShots.fun",
+  title: "Admin – AI-HeadShot.net",
   description: "Admin page for only admin management.",
 });
 

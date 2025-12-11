@@ -8,7 +8,7 @@
     "sign_in_with_linkedin": "Sign In with LinkedIn",
     "back": "Back",
     "welcome_back": "Welcome back",
-    "use_email_to_sign_in": "Use email to sign in to your HeadShots.fun account",
+    "use_email_to_sign_in": "Use email to sign in to your AI-HeadShot.net account",
     "don't_have_an_account": "Don't have an account?",
     "sign_up": "Sign Up",
     "email": "Email",
@@ -50,7 +50,7 @@
       "Terms": "Terms",
       "Privacy": "Privacy",
       "PixMiller": "PixMiller",
-      "HeadShots fun": "HeadShots.fun",
+      "HeadShots fun": "AI-HeadShot.net",
       "Ullr AI Lab": "Ullr AI Lab",
       "Pricing": "Pricing",
       "Styles": "Styles",
@@ -63,8 +63,8 @@
   "HeroLanding": {
     "make-photo-successful": "Make Your Photo Successful First!",
     "fun_pro_for_every_occasion": "Fun & Pro for Every Occasion, Just Shoot at",
-    "headshots_fun": "HeadShots.fun",
-    "get_unique_portraits": "Get unique and professional level portraits just in <bold>10 seconds</bold> using the fastest AI at HeadShots.fun. Only <bold>1/20</bold> the price of a physical photo shoot in the studio.",
+    "headshots_fun": "AI-HeadShot.net",
+    "get_unique_portraits": "Get unique and professional level portraits just in <bold>10 seconds</bold> using the fastest AI at AI-HeadShot.net. Only <bold>1/20</bold> the price of a physical photo shoot in the studio.",
     "get_your_headshots": "Get Your HeadShots"
   },
   "Testimonials": {
@@ -72,19 +72,19 @@
     "title": "What our clients are sharing.",
     "subtitle": "Discover the glowing feedback from our delighted customers worldwide.",
     "reviews": {
-      "1": "HeadShots.fun has completely transformed my workflow. The AI tools are not only efficient but also fun to use, making the headshot creation process both professional and enjoyable.",
-      "2": "HeadShots.fun made it super easy to create professional headshots for all my social media campaigns. ",
-      "3": "HeadShots.fun has significantly enhanced my brand work by providing professional-quality images that perfectly align with my brand's style.",
-      "4": "Creating headshots for my startup has never been this easy and enjoyable. HeadShots.fun delivers fantastic results while keeping the process light and fun.",
-      "5": "I love how HeadShots.fun balances creativity and professionalism. The flexibility of the AI tools allows me to design headshots that are both fun and perfectly suited to my creative projects.",
-      "6": "The efficiency and quality of HeadShots.fun are outstanding. I was able to create studio-quality headshots in seconds, and the process was surprisingly enjoyable.",
-      "7": "HeadShots.fun has been a valuable tool for our marketing campaigns. The AI-generated headshots are not only professional but also have a unique, fun element that makes our profiles stand out.",
-      "8": "The quality and speed of HeadShots.fun are impressive. I was able to create a professional headshot that looks like it was done in a studio, all within seconds."
+      "1": "AI-HeadShot.net has completely transformed my workflow. The AI tools are not only efficient but also fun to use, making the headshot creation process both professional and enjoyable.",
+      "2": "AI-HeadShot.net made it super easy to create professional headshots for all my social media campaigns. ",
+      "3": "AI-HeadShot.net has significantly enhanced my brand work by providing professional-quality images that perfectly align with my brand's style.",
+      "4": "Creating headshots for my startup has never been this easy and enjoyable. AI-HeadShot.net delivers fantastic results while keeping the process light and fun.",
+      "5": "I love how AI-HeadShot.net balances creativity and professionalism. The flexibility of the AI tools allows me to design headshots that are both fun and perfectly suited to my creative projects.",
+      "6": "The efficiency and quality of AI-HeadShot.net are outstanding. I was able to create studio-quality headshots in seconds, and the process was surprisingly enjoyable.",
+      "7": "AI-HeadShot.net has been a valuable tool for our marketing campaigns. The AI-generated headshots are not only professional but also have a unique, fun element that makes our profiles stand out.",
+      "8": "The quality and speed of AI-HeadShot.net are impressive. I was able to create a professional headshot that looks like it was done in a studio, all within seconds."
     }
   },
   "InfoLanding": {
     "title": "Empower Your Creativity",
-    "description": "Unlock the fun and potential of your headshots with HeadShots.fun. Transform simple snapshots into captivating AI-enhanced images that reflect your true self.",
+    "description": "Unlock the fun and potential of your headshots with AI-HeadShot.net. Transform simple snapshots into captivating AI-enhanced images that reflect your true self.",
     "list": {
       "title": {
         "1": "Create Effortlessly",
@@ -143,7 +143,7 @@
     "instantAIMagicDescription": "Our advanced AI generates pro-quality headshots in seconds, ready for any use.",
     "quickAndEasyProcess": "Quick & Easy Process",
     "createFunAndProHeadshotsIn3SimpleSteps": "Create Fun & Pro Headshots in 3 Simple Steps",
-    "experienceTheFastestAITechnologyAtHeadShotsFunForStunningPersonalizedHeadshotsPerfectForEveryOccasion": "Experience the fastest AI technology at HeadShots.fun for stunning, personalized headshots perfect for every occasion."
+    "experienceTheFastestAITechnologyAtHeadShotsFunForStunningPersonalizedHeadshotsPerfectForEveryOccasion": "Experience the fastest AI technology at AI-HeadShot.net for stunning, personalized headshots perfect for every occasion."
   },
   "CTA": {
     "title": "Make Me Look Awesome!",
@@ -151,7 +151,7 @@
     "button": "Get Started",
     "cool_button": "Shoot Your Fun Headshots Now!",
     "cool_title": "Instant Pro & Fun Headshots with AI Magic",
-    "cool_description": "Experience HeadShots.fun! Create stunning Pro & Fun portraits in seconds, no photographer needed."
+    "cool_description": "Experience AI-HeadShot.net! Create stunning Pro & Fun portraits in seconds, no photographer needed."
   },
   "BentoGrid": {
     "customizable_prompts": "Customizable Prompts",
@@ -161,7 +161,7 @@
     "lightning_fast_results": "Lightning-Fast Results",
     "lightning_fast_results_description": "Get AI-generated headshots in 10 seconds.",
     "professional_quality": "Professional Quality",
-    "professional_quality_description": "AI-generated headshots.fun that rival professional photography, perfect for any occasion and purpose.",
+    "professional_quality_description": "AI-generated AI-HeadShot.net that rival professional photography, perfect for any occasion and purpose.",
     "effortlessly_fun": "Effortlessly Fun",
     "effortlessly_fun_description": "Enjoy a seamless and enjoyable process, from capturing to receiving your headshots. It’s as fun as it is professional.",
     "superhero": "Superhero",
@@ -176,7 +176,7 @@
     "pricing": "Pricing"
   },
   "HeadshotStylePage": {
-    "label": "HeadShots.fun Styles",
+    "label": "AI-HeadShot.net Styles",
     "title": "Versatile Headshot Styles for Any Occasion",
     "subtitle": "Discover our diverse collection of AI-generated headshot styles. Quick, easy, and personalized just for you!"
   },
@@ -191,6 +191,7 @@
     "trial_section_description": "Enjoy a 7-day risk-free trial on all plans. Full refund if no credits used.",
     "1_credit_1_headshot": "1 Credit = 1 Headshot",
     "processing": "Processing...",
+    "loading": "loading",
     "purchase": "Purchase",
     "most_popular": "Most Popular",
     "package": "Package",
@@ -230,8 +231,8 @@
     "subtitle": "Frequently asked questions about our pricing.",
     "qa": [
       [
-        "What is HeadShots.fun?",
-        "HeadShots.fun is an AI-powered platform that allows you to create unique and stunning headshots quickly and easily, personalized for every occasion."
+        "What is AI-HeadShot.net?",
+        "AI-HeadShot.net is an AI-powered platform that allows you to create unique and stunning headshots quickly and easily, personalized for every occasion."
       ],
       [
         "How does the credit system work?",
@@ -261,7 +262,7 @@
   },
   "BlogPage": {
     "blog": "Blog",
-    "description": "Latest news and updates from HeadShots.fun",
+    "description": "Latest news and updates from AI-HeadShot.net",
     "categories": "Categories",
     "all": "All",
     "news": "News",

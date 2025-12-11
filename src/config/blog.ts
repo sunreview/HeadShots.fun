@@ -6,12 +6,12 @@ export const BLOG_CATEGORIES: {
   {
     title: "news",
     slug: "news",
-    description: "Updates and announcements from HeadShots.fun",
+    description: "Updates and announcements from AI-HeadShot.net",
   },
   {
     title: "education",
     slug: "education",
-    description: "Educational content about HeadShots.fun",
+    description: "Educational content about AI-HeadShot.net",
   },
 ];
 

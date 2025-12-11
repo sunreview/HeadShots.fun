@@ -23,7 +23,7 @@ export const defaultLocale = 'en';
 export const localePrefix = 'as-needed' as const;
 
 export const i18nConfig = {
-  name: 'HeadShots.fun',
+  name: 'AI-HeadShot.net',
   locales: localeItems,
   defaultLocale,
   localePrefix,

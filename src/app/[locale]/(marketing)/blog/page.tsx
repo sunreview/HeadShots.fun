@@ -6,7 +6,7 @@ import { BlogPosts } from "@/components/content/blog-posts";
 
 export const metadata = constructMetadata({
   title: `Blog – ${siteConfig.title}`,
-  description: "Latest news and updates from HeadShots.fun.",
+  description: "Latest news and updates from AI-HeadShot.net.",
 });
 
 export default async function BlogPage() {

@@ -55,7 +55,7 @@ export async function GET(req: Request) {
               color: 'transparent'
             }}
           >
-            HeadShots.fun
+            AI-HeadShot.net
           </div>
 
           <div tw="flex flex-col flex-1 py-16">

@@ -13,7 +13,7 @@ export default function HeadshotStylePage({ params: { locale } }: { params: { lo
   return (
     <MaxWidthWrapper className="py-12">
       <HeaderSection
-        label={`HeadShots${locale === 'zh-hans' ? '·' : '.'}fun Styles`}
+        label={`AI-HeadShot.${locale === 'zh-hans' ? '·' : '.'}net Styles`}
         title="Versatile Headshot Styles"
         subtitle="Discover our diverse collection of AI-generated headshot styles. Quick, easy, and personalized just for you!"
       />

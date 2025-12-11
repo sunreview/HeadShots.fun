@@ -7,7 +7,7 @@ import UsersList from "@/components/dashboard/admin-list";
 import { prisma } from "@/lib/db";
 
 export const metadata = constructMetadata({
-  title: "Users - Admin | HeadShots.fun",
+  title: "Users - Admin | AI-HeadShot.net",
   description: "Admin page for only admin management.",
 });
 

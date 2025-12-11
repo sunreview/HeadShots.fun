@@ -23,7 +23,7 @@ export default async function BillingPage() {
         <CreditTransactionHistory />
       </div>
       <div className="my-8 text-center text-sm text-muted-foreground">
-        <p>{t("if_you_have_any_questions_about_billing_please_contact_us_at")} <a href="mailto:support@headshots.fun">support@headshots.fun</a></p>
+        <p>{t("if_you_have_any_questions_about_billing_please_contact_us_at")} <a href="mailto:support@AI-HeadShot.net">support@AI-HeadShot.net</a></p>
       </div>
     </>
   );

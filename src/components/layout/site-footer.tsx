@@ -53,7 +53,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
               target="_blank"
               className="font-medium underline underline-offset-4"
             >
-              HeadShots.fun
+              AI-HeadShot.net
             </Link>
             <span className="mr-2"> , </span>
 

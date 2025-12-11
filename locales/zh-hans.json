@@ -8,7 +8,7 @@
     "sign_in_with_linkedin": "使用 LinkedIn 账号登录",
     "back": "返回",
     "welcome_back": "欢迎回来",
-    "use_email_to_sign_in": "使用电子邮件登录您的 HeadShots.fun 账户",
+    "use_email_to_sign_in": "使用电子邮件登录您的 AI-HeadShot.net 账户",
     "don't_have_an_account": "还没有账户？",
     "sign_up": "注册",
     "email": "电子邮件",
@@ -50,7 +50,7 @@
       "Terms": "条款",
       "Privacy": "隐私",
       "PixMiller": "PixMiller",
-      "HeadShots fun": "HeadShots.fun",
+      "HeadShots fun": "AI-HeadShot.net",
       "Ullr AI Lab": "Ullr AI 实验室",
       "Pricing": "定价",
       "Styles": "风格",
@@ -62,8 +62,8 @@
   },
   "HeroLanding": {
     "fun_pro_for_every_occasion": "适合每个场合的有趣或专业头像尽在",
-    "headshots_fun": "HeadShots.fun",
-    "get_unique_portraits": "使用 HeadShots.fun 的顶级 AI 技术，只需 <bold>10 秒</bold> 即可获得独特的专业级肖像。价格是实体摄影的 <bold>二十分之一</bold>。",
+    "headshots_fun": "AI-HeadShot.net",
+    "get_unique_portraits": "使用 AI-HeadShot.net 的顶级 AI 技术，只需 <bold>10 秒</bold> 即可获得独特的专业级肖像。价格是实体摄影的 <bold>二十分之一</bold>。",
     "get_your_headshots": "获取您的新头像"
   },
   "Testimonials": {
@@ -71,19 +71,19 @@
     "title": "我们的客户正在分享推荐",
     "subtitle": "发现来自全球满意客户的热情反馈。",
     "reviews": {
-      "1": "HeadShots.fun 完全改变了我的工作流程。AI 工具不仅高效，而且使用起来很有趣，使头像创作过程既专业又愉快。",
-      "2": "HeadShots.fun 让我为所有社交媒体活动创建专业头像变得超级简单。",
-      "3": "HeadShots.fun 通过提供与我品牌风格完美匹配的专业质量图像，显著提升了我的品牌工作。",
-      "4": "为我的创业公司创建头像从未如此简单和愉快。HeadShots.fun 在保持轻松有趣的过程中提供了出色的结果。",
-      "5": "我喜欢 HeadShots.fun 如何平衡创意和专业性。AI 工具的灵活性让我能够设计既有趣又完全适合我创意项目的头像。",
-      "6": "HeadShots.fun 的效率和质量都非常出色。我能够在几秒钟内创建出工作室级别的头像，而且这个过程出乎意料地愉快。",
-      "7": "HeadShots.fun 已成为我们营销活动的宝贵工具。AI 生成的头像不仅专业，而且具有独特的趣味元素，使我们的个人资料脱颖而出。",
-      "8": "HeadShots.fun 的质量和速度令人印象深刻。我能够在几秒钟内创建出看起来像是在工作室拍摄的专业头像。"
+      "1": "AI-HeadShot.net 完全改变了我的工作流程。AI 工具不仅高效，而且使用起来很有趣，使头像创作过程既专业又愉快。",
+      "2": "AI-HeadShot.net 让我为所有社交媒体活动创建专业头像变得超级简单。",
+      "3": "AI-HeadShot.net 通过提供与我品牌风格完美匹配的专业质量图像，显著提升了我的品牌工作。",
+      "4": "为我的创业公司创建头像从未如此简单和愉快。AI-HeadShot.net 在保持轻松有趣的过程中提供了出色的结果。",
+      "5": "我喜欢 AI-HeadShot.net 如何平衡创意和专业性。AI 工具的灵活性让我能够设计既有趣又完全适合我创意项目的头像。",
+      "6": "AI-HeadShot.net 的效率和质量都非常出色。我能够在几秒钟内创建出工作室级别的头像，而且这个过程出乎意料地愉快。",
+      "7": "AI-HeadShot.net 已成为我们营销活动的宝贵工具。AI 生成的头像不仅专业，而且具有独特的趣味元素，使我们的个人资料脱颖而出。",
+      "8": "AI-HeadShot.net 的质量和速度令人印象深刻。我能够在几秒钟内创建出看起来像是在工作室拍摄的专业头像。"
     }
   },
   "InfoLanding": {
     "title": "激发您的创造力",
-    "description": "通过 HeadShots.fun 释放您头像的乐趣和潜力。将简单的快照转变为反映真实自我的迷人 AI 增强图像。",
+    "description": "通过 AI-HeadShot.net 释放您头像的乐趣和潜力。将简单的快照转变为反映真实自我的迷人 AI 增强图像。",
     "list": {
       "title": {
         "1": "轻松创作",
@@ -142,7 +142,7 @@
     "instantAIMagicDescription": "先进 AI，数秒内生成专业级头像，随时展现最佳形象。",
     "quickAndEasyProcess": "只需三步，简单快捷",
     "createFunAndProHeadshotsIn3SimpleSteps": "三步轻松创建趣味十足的专业头像",
-    "experienceTheFastestAITechnologyAtHeadShotsFunForStunningPersonalizedHeadshotsPerfectForEveryOccasion": "体验 HeadShots.fun 超快的 AI 技术，打造适合各种场合的惊艳个性化头像。"
+    "experienceTheFastestAITechnologyAtHeadShotsFunForStunningPersonalizedHeadshotsPerfectForEveryOccasion": "体验 AI-HeadShot.net 超快的 AI 技术，打造适合各种场合的惊艳个性化头像。"
   },
   "CTA": {
     "title": "让自己焕然一新！",
@@ -150,7 +150,7 @@
     "button": "立即体验",
     "cool_button": "立即拍摄您的趣味头像！",
     "cool_title": "AI 魔法，瞬间为您创造专业有趣头像",
-    "cool_description": "几秒钟内创建令人惊叹的趣味的专业肖像，无需摄影师。体验 HeadShots.fun！"
+    "cool_description": "几秒钟内创建令人惊叹的趣味的专业肖像，无需摄影师。体验 AI-HeadShot.net！"
   },
   "BentoGrid": {
     "customizable_prompts": "自定义提示",
@@ -160,7 +160,7 @@
     "lightning_fast_results": "闪电般的速度",
     "lightning_fast_results_description": "10 秒内获得 AI 生成的精美头像。",
     "professional_quality": "专业品质",
-    "professional_quality_description": "AI 生成的 HeadShots.fun 头像媲美专业摄影，适合各种场合和用途。",
+    "professional_quality_description": "AI 生成的 AI-HeadShot.net 头像媲美专业摄影，适合各种场合和用途。",
     "effortlessly_fun": "轻松有趣",
     "effortlessly_fun_description": "从拍摄到接收头像，享受流畅愉快的过程。既专业又充满乐趣。",
     "superhero": "超级英雄",
@@ -175,7 +175,7 @@
     "pricing": "定价"
   },
   "HeadshotStylePage": {
-    "label": "HeadShots.fun 风格",
+    "label": "AI-HeadShot.net 风格",
     "title": "适用于任何场合的多样风格",
     "subtitle": "探索我们多样化的 AI 生成头像风格。快速、简单、个性化，只为您！"
   },
@@ -190,6 +190,7 @@
     "trial_section_description": "享受所有计划的 7 天无风险试用。如果未使用点数，全额退款",
     "1_credit_1_headshot": "1 点数 = 1 张头像",
     "processing": "处理中...",
+    "loading": "加载中",
     "purchase": "购买",
     "most_popular": "最受欢迎",
     "package": "套餐",
@@ -229,8 +230,8 @@
     "subtitle": "关于我们价格的常见问题。",
     "qa": [
       [
-        "什么是 HeadShots.fun？",
-        "HeadShots.fun 是一个由 AI 驱动的平台，让您能够快速、轻松地创建独特而惊艳的头像，为每个场合量身定制。"
+        "什么是 AI-HeadShot.net？",
+        "AI-HeadShot.net 是一个由 AI 驱动的平台，让您能够快速、轻松地创建独特而惊艳的头像，为每个场合量身定制。"
       ],
       [
         "点数系统是如何运作的？",
@@ -260,7 +261,7 @@
   },
   "BlogPage": {
     "blog": "博客",
-    "description": "HeadShots.fun 的最新新闻和更新",
+    "description": "AI-HeadShot.net 的最新新闻和更新",
     "categories": "分类",
     "all": "全部",
     "news": "新闻",
