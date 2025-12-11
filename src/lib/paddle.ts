@@ -222,7 +222,7 @@ export async function handleSuccessfulPayment(transactionId: string) {
       where: { paddleTransactionId: transactionId },
       data: {
         status: "completed",
-        paddlePaymentId: paddleTransaction.payments?.[0]?.id || null,
+        paddlePaymentId: paddleTransaction.id,
       },
     })
 
