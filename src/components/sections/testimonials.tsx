@@ -82,6 +82,7 @@ export default function Testimonials() {
                           className="size-full rounded-full border"
                           src={item.image}
                           alt={item.name}
+                          unoptimized
                         />
                       </span>
                       <div>
