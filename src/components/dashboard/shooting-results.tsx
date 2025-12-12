@@ -28,22 +28,13 @@ interface ShootingResultsProps {
     onShootComplete: () => void;
 }
 
-const downloadImage = async (imageUrl: string) => {
-    const response = await fetch('/api/proxy-image', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ url: imageUrl }),
-    });
-    const blob = await response.blob();
-    const url = window.URL.createObjectURL(blob);
-
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = imageUrl.split('/').pop() || 'prediction-image.jpg';
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    window.URL.revokeObjectURL(url);
+const downloadImage = (imageUrl: string) => {
+  const a = document.createElement('a');
+  a.href = imageUrl;  // 直接指向 R2 的图片地址
+  a.download = imageUrl.split('/').pop() || 'prediction-image.png';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
 };
 
 const getStatusColor = (status: string): string => {
