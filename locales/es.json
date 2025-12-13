@@ -1,0 +1,424 @@
+{
+  "auth": {
+    "sign_in": "Iniciar sesión",
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "email_login_text": "Puedes usar tu correo electrónico para",
+    "sign_in_with_google": "Iniciar sesión con Google",
+    "sign_in_with_linkedin": "Iniciar sesión con LinkedIn",
+    "back": "Volver",
+    "welcome_back": "Bienvenido de nuevo",
+    "use_email_to_sign_in": "Usa tu correo electrónico para iniciar sesión en tu cuenta de AI-HeadShot.net",
+    "don't_have_an_account": "¿No tienes una cuenta?",
+    "sign_up": "Registrarse",
+    "email": "Correo electrónico",
+    "sign_up_with_email": "Registrarse con correo electrónico",
+    "sign_in_with_email": "Iniciar sesión con correo electrónico",
+    "or": "O",
+    "continue_with_google": "Continuar con Google",
+    "continue_with_linkedin": "Continuar con LinkedIn",
+    "create_an_account": "Crear una cuenta",
+    "enter_your_email_below_to_create_your_account": "Ingresa tu correo electrónico para crear tu cuenta",
+    "by_clicking_continue_you_agree_to_our": "Al hacer clic en continuar, aceptas nuestros",
+    "terms_of_service": "Términos de servicio",
+    "privacy_policy": "Política de privacidad"
+  },
+  "dashboard": {
+    "menu": "MENÚ",
+    "options": "OPCIONES",
+    "admin": "ADMINISTRADOR",
+    "dashboard": "Panel de control",
+    "billing": "Facturación",
+    "settings": "Configuración",
+    "homepage": "Página de inicio",
+    "mail_support": "Soporte por correo",
+    "admin_panel": "Panel de administrador",
+    "users": "Usuarios",
+    "studios": "Estudios",
+    "predictions": "Predicciones",
+    "orders": "Pedidos",
+    "log_out": "Cerrar sesión"
+  },
+  "sitefooter": {
+    "sections": {
+      "Company": "Compañía",
+      "Ullr AI Products": "Productos Ullr AI",
+      "Resources": "Recursos"
+    },
+    "links": {
+      "About": "Acerca de",
+      "Terms": "Términos",
+      "Privacy": "Privacidad",
+      "PixMiller": "PixMiller",
+      "HeadShots fun": "AI-HeadShot.net",
+      "Ullr AI Lab": "Ullr AI Lab",
+      "Pricing": "Precios",
+      "Styles": "Estilos",
+      "Blog": "Blog"
+    },
+    "copyright": "Copyright © 2024. Todos los derechos reservados.",
+    "built_by": "Creado por",
+    "open_source_by": "Código abierto por"
+  },
+  "HeroLanding": {
+    "make-photo-successful": "¡Haz que tu foto sea un éxito!",
+    "fun_pro_for_every_occasion": "Divertido y profesional para cada ocasión, solo dispara en",
+    "headshots_fun": "AI-HeadShot.net",
+    "get_unique_portraits": "Obtén retratos únicos y de nivel profesional en solo <bold>10 segundos</bold> usando la IA más rápida en AI-HeadShot.net. Solo <bold>1/20</bold> del precio de una sesión de fotos en estudio.",
+    "get_your_headshots": "Obtén tus fotos de perfil"
+  },
+  "Testimonials": {
+    "label": "Testimonios",
+    "title": "Lo que comparten nuestros clientes",
+    "subtitle": "Descubre los comentarios entusiastas de nuestros clientes satisfechos en todo el mundo.",
+    "reviews": {
+      "1": "AI-HeadShot.net ha transformado completamente mi flujo de trabajo. Las herramientas de IA no solo son eficientes, sino también divertidas de usar, haciendo que el proceso de creación de fotos de perfil sea profesional y agradable.",
+      "2": "AI-HeadShot.net hizo que fuera súper fácil crear fotos de perfil profesionales para todas mis campañas en redes sociales.",
+      "3": "AI-HeadShot.net ha mejorado significativamente mi trabajo de marca al proporcionar imágenes de calidad profesional que se alinean perfectamente con el estilo de mi marca.",
+      "4": "Crear fotos de perfil para mi startup nunca ha sido tan fácil y agradable. AI-HeadShot.net ofrece resultados fantásticos mientras mantiene el proceso ligero y divertido.",
+      "5": "Me encanta cómo AI-HeadShot.net equilibra la creatividad y el profesionalismo. La flexibilidad de las herramientas de IA me permite diseñar fotos de perfil que son divertidas y perfectamente adecuadas para mis proyectos creativos.",
+      "6": "La eficiencia y calidad de AI-HeadShot.net son sobresalientes. Pude crear fotos de perfil de calidad de estudio en segundos, y el proceso fue sorprendentemente agradable.",
+      "7": "AI-HeadShot.net ha sido una herramienta valiosa para nuestras campañas de marketing. Las fotos de perfil generadas por IA no solo son profesionales, sino que también tienen un elemento divertido único que hace que nuestros perfiles se destaquen.",
+      "8": "La calidad y velocidad de AI-HeadShot.net son impresionantes. Pude crear una foto de perfil profesional que parece hecha en un estudio, todo en segundos."
+    }
+  },
+  "InfoLanding": {
+    "title": "Potencia tu creatividad",
+    "description": "Desbloquea la diversión y el potencial de tus fotos de perfil con AI-HeadShot.net. Transforma simples instantáneas en imágenes cautivadoras mejoradas por IA que reflejan tu verdadero yo.",
+    "list": {
+      "title": {
+        "1": "Crea sin esfuerzo",
+        "2": "Personaliza con IA",
+        "3": "Eleva tu presencia"
+      },
+      "description": {
+        "1": "Disfruta de un proceso fluido e intuitivo que hace que crear la foto de perfil perfecta sea muy fácil.",
+        "2": "Usa herramientas de IA avanzadas para personalizar cada aspecto de tu foto de perfil, asegurándote de que sea únicamente tuya.",
+        "3": "Ya sea para el trabajo o el ocio, asegúrate de que tu presencia en línea se destaque con fotos de perfil que combinan diversión con profesionalismo."
+      }
+    }
+  },
+  "Features": {
+    "title": "Explora nuestras funciones",
+    "subtitle": "Libera tu creatividad con herramientas impulsadas por IA diseñadas para hacer que cada foto de perfil sea única.",
+    "features": {
+      "1": {
+        "title": "Creación sin esfuerzo",
+        "description": "Adapta tus fotos de perfil generadas por IA para que se ajusten a tu estilo único. Nuestras herramientas intuitivas facilitan el ajuste de cada detalle."
+      },
+      "2": {
+        "title": "IA personalizada",
+        "description": "Genera fotos de perfil impresionantes en segundos. Con el poder de la IA, nunca tendrás que esperar por imágenes de calidad profesional."
+      },
+      "3": {
+        "title": "Calidad profesional",
+        "description": "Incorpora fácilmente tus fotos de perfil en tus perfiles personales o profesionales, con formatos optimizados para cualquier plataforma."
+      },
+      "4": {
+        "title": "Creatividad mejorada por IA",
+        "description": "Tus datos están seguros con nosotros. Priorizamos tu privacidad y garantizamos que tus fotos de perfil se almacenen y compartan de forma segura."
+      },
+      "5": {
+        "title": "Divertido y atractivo",
+        "description": "Aprovecha el poder de la IA para explorar posibilidades creativas. Experimenta con diferentes estilos y looks sin esfuerzo."
+      },
+      "6": {
+        "title": "Divertido y atractivo",
+        "description": "Disfruta de una experiencia lúdica y atractiva mientras creas fotos de perfil que son divertidas y profesionales."
+      }
+    }
+  },
+  "NotFound": {
+    "pageNotFound": "Página no encontrada.",
+    "backTo": "Volver a",
+    "homepage": "página de inicio"
+  },
+  "StepsSection": {
+    "step": "Paso",
+    "uploadYourSelfies": "Sube tus selfies",
+    "uploadYourSelfiesDescription": "Sube de 1 a 5 selfies o fotos claras que muestren tu rostro en diversos entornos.",
+    "personalizeYourStyle": "Personaliza tu estilo",
+    "personalizeYourStyleDescription": "Selecciona entre diversos estilos o crea indicaciones personalizadas para fotos de perfil verdaderamente únicas.",
+    "instantAIMagic": "Magia de IA instantánea",
+    "instantAIMagicDescription": "Nuestra IA avanzada genera fotos de perfil de calidad profesional en segundos, listas para cualquier uso.",
+    "quickAndEasyProcess": "Proceso rápido y fácil",
+    "createFunAndProHeadshotsIn3SimpleSteps": "Crea fotos de perfil divertidas y profesionales en 3 simples pasos",
+    "experienceTheFastestAITechnologyAtHeadShotsFunForStunningPersonalizedHeadshotsPerfectForEveryOccasion": "Experimenta la tecnología de IA más rápida en AI-HeadShot.net para fotos de perfil personalizadas impresionantes, perfectas para cada ocasión."
+  },
+  "CTA": {
+    "title": "¡Hazme lucir increíble!",
+    "description": "¿Cansado de tus mismas selfies de siempre? ¡Nuestra cabina de fotos con IA está aquí para darle vida! ¡Te tenemos cubierto! No necesitas equipo sofisticado, solo unos clics y ¡listo! ¡Estás listo para sorprender al mundo!",
+    "button": "Comenzar",
+    "cool_button": "¡Dispara tus fotos de perfil divertidas ahora!",
+    "cool_title": "Fotos de perfil profesionales y divertidas instantáneas con magia de IA",
+    "cool_description": "¡Experimenta AI-HeadShot.net! Crea impresionantes retratos profesionales y divertidos en segundos, sin necesidad de fotógrafo."
+  },
+  "BentoGrid": {
+    "customizable_prompts": "Indicaciones personalizables",
+    "secure_by_design": "Seguro por diseño",
+    "secure_by_design_description": "Tus datos están protegidos con la mejor seguridad, brindándote tranquilidad.",
+    "usually_in_10_seconds": "Generalmente en 10 segundos",
+    "lightning_fast_results": "Resultados ultrarrápidos",
+    "lightning_fast_results_description": "Obtén fotos de perfil generadas por IA en 10 segundos.",
+    "professional_quality": "Calidad profesional",
+    "professional_quality_description": "AI-HeadShot.net generadas por IA que rivalizan con la fotografía profesional, perfectas para cualquier ocasión y propósito.",
+    "effortlessly_fun": "Divertido sin esfuerzo",
+    "effortlessly_fun_description": "Disfruta de un proceso fluido y agradable, desde la captura hasta la recepción de tus fotos de perfil. Es tan divertido como profesional.",
+    "superhero": "Superhéroe",
+    "witch": "Bruja",
+    "clay": "Arcilla"
+  },
+  "NavBar": {
+    "dashboard": "Panel de control",
+    "sign_in": "Iniciar sesión",
+    "blog": "Blog",
+    "generator-styles": "Estilos",
+    "pricing": "Precios"
+  },
+  "HeadshotStylePage": {
+    "label": "Estilos de AI-HeadShot.net",
+    "title": "Estilos versátiles de fotos de perfil para cualquier ocasión",
+    "subtitle": "¡Descubre nuestra diversa colección de estilos de fotos de perfil generadas por IA. Rápido, fácil y personalizado solo para ti!"
+  },
+  "PricingPage": {
+    "metadata": {
+      "title": "Precios – {siteTitle}",
+      "description": "Explora nuestros precios de fotos de perfil."
+    },
+    "label": "Precios",
+    "title": "Precios simples y transparentes",
+    "subtitle": "Elige el plan perfecto para tus necesidades. Sin tarifas ocultas, sin sorpresas.",
+    "trial_section_description": "Disfruta de una prueba sin riesgo de 7 días en todos los planes. Reembolso completo si no se usan créditos.",
+    "1_credit_1_headshot": "1 Crédito = 1 Foto de perfil",
+    "processing": "Procesando...",
+    "loading": "cargando",
+    "purchase": "Comprar",
+    "most_popular": "Más popular",
+    "package": "Paquete",
+    "price": "Precio",
+    "price_per": "Precio por",
+    "credits": "Créditos",
+    "plans": {
+      "1": {
+        "description": "Iniciador de selfies: Tu primer paso hacia el glamour con IA",
+        "features": "2 Créditos"
+      },
+      "2": {
+        "description": "Encantador casual: Dale vida a tu juego en redes sociales",
+        "features": "10 Créditos"
+      },
+      "3": {
+        "description": "Superestrella de instantáneas: Libera tu modelo interior",
+        "features": "25 Créditos"
+      },
+      "4": {
+        "description": "Profesional de retratos: Eleva tu presencia en línea",
+        "features": "50 Créditos"
+      },
+      "5": {
+        "description": "Transformador de equipos: Haz brillar a todo tu equipo",
+        "features": "100 Créditos"
+      },
+      "6": {
+        "description": "Paraíso de fotos de perfil: Disfruta de diversión ilimitada",
+        "features": "200 Créditos"
+      }
+    }
+  },
+  "PricingPageFAQ": {
+    "title": "Preguntas frecuentes",
+    "label": "Precios",
+    "subtitle": "Preguntas frecuentes sobre nuestros precios.",
+    "qa": [
+      [
+        "¿Qué es AI-HeadShot.net?",
+        "AI-HeadShot.net es una plataforma impulsada por IA que te permite crear fotos de perfil únicas e impresionantes de forma rápida y fácil, personalizadas para cada ocasión."
+      ],
+      [
+        "¿Cómo funciona el sistema de créditos?",
+        "1 Crédito = 1 Foto de perfil. Ofrecemos varios paquetes de créditos para adaptarse a diferentes necesidades. Puedes comprar créditos que se pueden usar para generar fotos de perfil con IA. Cuantos más créditos compres, mejor valor obtendrás."
+      ],
+      [
+        "¿Cuál es el precio de los paquetes de créditos?",
+        "Nuestros precios comienzan en $2.99, perfecto para probar nuestro servicio. También ofrecemos paquetes más grandes, siendo nuestra opción más popular el Plan Superestrella de instantáneas de $19.9, ideal para usuarios regulares."
+      ],
+      [
+        "¿Hay funciones que ayuden a personalizar mis fotos de perfil?",
+        "¡Sí! Ofrecemos herramientas impulsadas por IA diseñadas para hacer que cada foto de perfil sea única. Puedes explorar varias funciones para liberar tu creatividad y personalizar tus fotos de perfil para diferentes ocasiones."
+      ],
+      [
+        "¿Qué tan rápida es la tecnología de IA utilizada para generar fotos de perfil?",
+        "Usamos la tecnología de IA más rápida disponible para garantizar una generación de fotos de perfil rápida y eficiente, típicamente en 10 segundos. Nuestro objetivo es brindarte resultados impresionantes en el menor tiempo posible."
+      ],
+      [
+        "¿Qué tipo de fotos debo subir a la plataforma?",
+        "Recomendamos que subas múltiples fotos frontales para asegurar que tu foto de perfil sea lo más precisa posible. Estas fotos deben mostrar una vista clara/sin obstrucciones de tu rostro. Asegúrate de que tus fotos sean claras, de alta calidad y no incluyan a otras personas o animales."
+      ],
+      [
+        "¿Puedo usar la misma foto para múltiples fotos de perfil?",
+        "Sí, puedes usar la misma foto para múltiples fotos de perfil. Nuestra tecnología de IA permite múltiples resultados de una sola foto, por lo que puedes crear diferentes looks y estilos con la misma imagen."
+      ]
+    ]
+  },
+  "BlogPage": {
+    "blog": "Blog",
+    "description": "Últimas noticias y actualizaciones de AI-HeadShot.net",
+    "categories": "Categorías",
+    "all": "Todos",
+    "news": "Noticias",
+    "education": "Educación",
+    "more_articles": "Más artículos"
+  },
+  "StudioPage": {
+    "studios": "Estudios",
+    "create_new_studio": "Crear estudio",
+    "create_new_studio_short": "Crear",
+    "your_studios": "Tus estudios",
+    "a_list_of_all_your_created_studios": "Una lista de todos tus estudios creados.",
+    "name": "Nombre",
+    "type": "Tipo",
+    "headshots": "Fotos de perfil",
+    "created_at": "Creado el",
+    "no_studios_created": "No se crearon estudios",
+    "you_dont_have_any_studios_yet": "Aún no tienes ningún estudio. Comienza a crear estudios.",
+    "error_studio_type_required": "Por favor selecciona un tipo de estudio.",
+    "error_studio_name_required": "Por favor ingresa un nombre de estudio.",
+    "error_at_least_one_image": "Por favor sube al menos una imagen.",
+    "error_max_5_images": "Puedes subir un máximo de 5 imágenes.",
+    "error_failed_to_upload_image": "Error al subir la imagen",
+    "success_studio_created": "¡Estudio creado con éxito!",
+    "error_failed_to_create_studio": "Error al crear el estudio. Por favor inténtalo de nuevo.",
+    "back_to_dashboard": "Volver al panel de control",
+    "enter_basic_info_for_your_studio": "Ingresa la información básica de tu estudio",
+    "studio_name": "Nombre del estudio",
+    "this_is_the_name_that_will_be_displayed_for_your_studio": "Este es el nombre que se mostrará para tu estudio.",
+    "studio_type": "Tipo de estudio",
+    "male": "Masculino",
+    "female": "Femenino",
+    "kid": "Niño",
+    "select_the_type_of_studio_you_want_to_create": "Selecciona el tipo de estudio que deseas crear.",
+    "upload_sample_photos": "Subir fotos de muestra",
+    "please_upload_1_5_clear_front_facing_photos_that_meet_the_sample_photo_requirements": "Por favor sube de 1 a 5 fotos claras frontales que cumplan con los requisitos de fotos de muestra.",
+    "set_as_main": "Establecer como principal",
+    "main": "Principal",
+    "creating": "Creando...",
+    "upload_a_file": "Subir un archivo",
+    "or_drag_and_drop": "o arrastra y suelta",
+    "png_jpg_gif_up_to_10mb": "PNG, JPG, GIF hasta 10MB",
+    "create_studio": "Crear estudio",
+    "sample_photo_requirements": "Requisitos de fotos de muestra",
+    "make_sure_your_sample_photos_meet_these_standards": "Asegúrate de que tus fotos de muestra cumplan con estos estándares:",
+    "front_and_clear": "Frontal y clara",
+    "multiple_people": "Múltiples personas",
+    "side_shots": "Tomas laterales",
+    "blurry_photos": "Fotos borrosas",
+    "obstructing": "Obstruyendo",
+    "detailed_explanation_for": "Explicación detallada para",
+    "your_studio_name": "Nombre de tu estudio",
+    "select_studio_type": "Seleccionar tipo de estudio",
+    "error_failed_to_fetch_prediction_result": "Error al obtener el resultado de la predicción.",
+    "shooting_results": "Resultados de la sesión",
+    "download": "Descargar",
+    "open_in_new_tab": "Abrir en nueva pestaña",
+    "close": "Cerrar",
+    "your_studio_created_successfully": "¡Tu estudio se creó con éxito!",
+    "ready_to_shoot": "¿Listo para disparar?",
+    "click_shoot_below_to_begin_creating_your_first_headshot": "Haz clic en 'Disparar' a continuación para comenzar a crear tu primera foto de perfil.",
+    "each_shoot_generates_a_unique_headshot_even_with_the_same_style_or_prompt_try_multiple_times": "Cada sesión genera una foto de perfil única, incluso con el mismo estilo o indicación. Prueba varias veces.",
+    "studio_updated_successfully": "¡Estudio actualizado con éxito!",
+    "failed_to_update_studio_please_try_again": "Error al actualizar el estudio. Por favor inténtalo de nuevo.",
+    "studio_deleted_successfully": "¡Estudio eliminado con éxito!",
+    "failed_to_delete_studio_please_try_again": "Error al eliminar el estudio. Por favor inténtalo de nuevo.",
+    "edit_studio": "Editar estudio",
+    "delete_studio": "Eliminar estudio",
+    "deleting": "Eliminando...",
+    "delete": "Eliminar",
+    "cancel": "Cancelar",
+    "are_you_sure_you_want_to_delete_this_studio": "¿Estás seguro de que deseas eliminar este estudio?",
+    "this_action_cannot_be_undone": "Esta acción no se puede deshacer.",
+    "this_will_permanently_delete_the_studio_and_all_associated_data": "Esto eliminará permanentemente el estudio y todos los datos asociados.",
+    "save_changes": "Guardar cambios",
+    "insufficient_credits_please_add_more_credits_to_continue": "Créditos insuficientes. Por favor agrega más créditos para continuar.",
+    "select_style": "Seleccionar estilo",
+    "custom": "Personalizado",
+    "show": "Mostrar",
+    "hide": "Ocultar",
+    "advanced_settings": "Configuración avanzada",
+    "custom_prompt_required": "Indicación personalizada (requerida)",
+    "enter_your_custom_prompt_here": "Ingresa tu indicación personalizada aquí...",
+    "custom_negative_prompt_optional": "Indicación negativa personalizada (opcional)",
+    "enter_your_custom_negative_prompt_here": "Ingresa tu indicación negativa personalizada aquí...",
+    "hot": "POPULAR",
+    "new": "NUEVO",
+    "aspect_ratio": "Relación de aspecto",
+    "portrait_3_4": "Retrato (3:4)",
+    "landscape_4_3": "Paisaje (4:3)",
+    "square_1_1": "Cuadrado (1:1)",
+    "portrait": "Retrato",
+    "landscape": "Paisaje",
+    "square": "Cuadrado",
+    "pay_and_shoot": "Pagar y disparar",
+    "from_0_4_headshot": "desde $0.4/Foto de perfil",
+    "loading_credits": "Cargando créditos...",
+    "shoot": "Disparar",
+    "shooting": "Disparando...",
+    "failed_to_start_shoot": "Error al iniciar la sesión",
+    "shooting_failed": "La sesión falló. Por favor verifica las fotos subidas o contacta al soporte.",
+    "failed_to_start_shoot_please_try_again_or_contact_support": "Error al iniciar la sesión. Por favor inténtalo de nuevo o contacta al soporte.",
+    "shoot_started_successfully_1_credit_used": "Sesión iniciada con éxito. 1 crédito usado.",
+    "processing": "Procesando...",
+    "completed": "Completado",
+    "failed": "Fallido",
+    "our_privacy_policy": "Política de privacidad",
+    "if_you_have_any_questions_about_the_photos": "Si tienes alguna pregunta sobre la privacidad de las fotos, por favor revisa:"
+  },
+  "Credits": {
+    "credits": "Créditos",
+    "your_current_balance": "Tu saldo actual",
+    "buy_credits": "Comprar créditos",
+    "check_your_credits_transactions_and_usage": "Verifica tus transacciones y uso de créditos.",
+    "if_you_have_any_questions_about_billing_please_contact_us_at": "Si tienes alguna pregunta sobre facturación, por favor contáctanos en",
+    "billing": "Facturación",
+    "credits_activity": "Actividad de créditos",
+    "30_day_credit_activity_summary": "Resumen de actividad de créditos de 30 días",
+    "credits_history": "Historial de créditos",
+    "select_page_size": "Seleccionar tamaño de página",
+    "10_per_page": "10 por página",
+    "20_per_page": "20 por página",
+    "50_per_page": "50 por página",
+    "type": "Tipo",
+    "amount": "Cantidad",
+    "date": "Fecha"
+  },
+  "Settings": {
+    "settings": "Configuración",
+    "manage_account_settings": "Administra la configuración de tu cuenta.",
+    "your_name": "Tu nombre",
+    "please_enter_a_display_name_you_are_comfortable_with": "Por favor ingresa un nombre para mostrar con el que te sientas cómodo.",
+    "max_32_characters": "Máximo 32 caracteres",
+    "save": "Guardar",
+    "changes": "Cambios",
+    "your_name_has_been_updated": "Tu nombre ha sido actualizado.",
+    "your_name_was_not_updated_please_try_again": "Tu nombre no fue actualizado. Por favor inténtalo de nuevo.",
+    "something_went_wrong": "Algo salió mal.",
+    "your_avatar": "Tu avatar",
+    "please_enter_a_display_avatar_you_are_comfortable_with": "Por favor ingresa un avatar para mostrar con el que te sientas cómodo.",
+    "max_255_characters": "Máximo 255 caracteres",
+    "your_avatar_has_been_updated": "Tu avatar ha sido actualizado.",
+    "your_avatar_was_not_updated_please_try_again": "Tu avatar no fue actualizado. Por favor inténtalo de nuevo.",
+    "something_went_wrong_with_avatar_update": "Algo salió mal con la actualización del avatar.",
+    "delete_account": "Eliminar cuenta",
+    "this_is_a_danger_zone_be_careful": "¡Esta es una zona peligrosa - Ten cuidado!",
+    "are_you_sure": "¿Estás seguro?",
+    "permanently_delete_your_account_and_credits": "Eliminar permanentemente tu cuenta de {siteTitle} y créditos. Esta acción no se puede deshacer - procede con precaución."
+  },
+  "payment-status": {
+    "title": "Estado del pago",
+    "loading": "Cargando estado del pago...",
+    "success": "¡Pago exitoso!",
+    "processing": "El pago aún se está procesando.",
+    "go_to_dashboard": "Ir al panel de control",
+    "return_to_pricing": "Volver a precios",
+    "missing_session_id": "Falta el ID de sesión, por favor verifica tu enlace de pago nuevamente o contacta al soporte."
+  }
+}

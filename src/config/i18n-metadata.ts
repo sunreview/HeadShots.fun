@@ -1,13 +1,15 @@
 export const localeItems = [
 {code: 'en', name: 'English'},
 {code: 'zh-hans', name: '简体中文'},
+{code: 'ja', name: '日本語'},
+{code: 'ko', name: '한국어'},
+{code: 'es', name: 'Español'},
+{code: 'pt', name: 'Português'}
 // {code: 'de', name: 'Deutsch'},
 // {code: 'es', name: 'Español'},
 // {code: 'fr', name: 'Français'},
 // {code: 'id', name: 'Bahasa Indonesia'},
-// {code: 'ja', name: '日本語'},
 // {code: 'ms', name: 'Bahasa Melayu'},
-// {code: 'pt', name: 'Português'},
 // {code: 'ru', name: 'Русский'},
 // {code: 'zh-hant', name: '正體中文'},
 //{code: 'ar', name: 'العربية'},

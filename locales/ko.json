@@ -1,0 +1,424 @@
+{
+  "auth": {
+    "sign_in": "로그인",
+    "login": "로그인",
+    "register": "회원가입",
+    "email_login_text": "이메일로",
+    "sign_in_with_google": "Google로 로그인",
+    "sign_in_with_linkedin": "LinkedIn으로 로그인",
+    "back": "뒤로",
+    "welcome_back": "다시 오신 것을 환영합니다",
+    "use_email_to_sign_in": "이메일을 사용하여 AI-HeadShot.net 계정에 로그인",
+    "don't_have_an_account": "계정이 없으신가요?",
+    "sign_up": "회원가입",
+    "email": "이메일",
+    "sign_up_with_email": "이메일로 가입",
+    "sign_in_with_email": "이메일로 로그인",
+    "or": "또는",
+    "continue_with_google": "Google로 계속하기",
+    "continue_with_linkedin": "LinkedIn으로 계속하기",
+    "create_an_account": "계정 만들기",
+    "enter_your_email_below_to_create_your_account": "계정을 만들려면 아래에 이메일을 입력하세요",
+    "by_clicking_continue_you_agree_to_our": "계속을 클릭하면 다음에 동의하는 것입니다",
+    "terms_of_service": "서비스 약관",
+    "privacy_policy": "개인정보 보호정책"
+  },
+  "dashboard": {
+    "menu": "메뉴",
+    "options": "옵션",
+    "admin": "관리자",
+    "dashboard": "대시보드",
+    "billing": "결제",
+    "settings": "설정",
+    "homepage": "홈페이지",
+    "mail_support": "고객지원",
+    "admin_panel": "관리자 패널",
+    "users": "사용자",
+    "studios": "스튜디오",
+    "predictions": "예측",
+    "orders": "주문",
+    "log_out": "로그아웃"
+  },
+  "sitefooter": {
+    "sections": {
+      "Company": "회사",
+      "Ullr AI Products": "Ullr AI 제품",
+      "Resources": "리소스"
+    },
+    "links": {
+      "About": "소개",
+      "Terms": "약관",
+      "Privacy": "개인정보",
+      "PixMiller": "PixMiller",
+      "HeadShots fun": "AI-HeadShot.net",
+      "Ullr AI Lab": "Ullr AI Lab",
+      "Pricing": "가격",
+      "Styles": "스타일",
+      "Blog": "블로그"
+    },
+    "copyright": "Copyright © 2024. All rights reserved.",
+    "built_by": "제작",
+    "open_source_by": "오픈소스"
+  },
+  "HeroLanding": {
+    "make-photo-successful": "당신의 사진을 성공시키세요!",
+    "fun_pro_for_every_occasion": "모든 순간을 위한 재미있고 전문적인",
+    "headshots_fun": "AI-HeadShot.net",
+    "get_unique_portraits": "AI-HeadShot.net의 최고속 AI를 사용하여 단 <bold>10초</bold>만에 독특하고 전문가 수준의 초상화를 얻으세요. 스튜디오 촬영 가격의 <bold>1/20</bold>만으로.",
+    "get_your_headshots": "프로필 사진 만들기"
+  },
+  "Testimonials": {
+    "label": "고객 후기",
+    "title": "고객들의 이야기",
+    "subtitle": "전 세계 만족한 고객들의 열렬한 피드백을 확인하세요.",
+    "reviews": {
+      "1": "AI-HeadShot.net은 제 업무 흐름을 완전히 바꿔놓았습니다. AI 도구는 효율적일 뿐만 아니라 사용하기 재미있어서 프로필 사진 제작 과정이 전문적이면서도 즐겁습니다.",
+      "2": "AI-HeadShot.net 덕분에 모든 소셜 미디어 캠페인을 위한 전문 프로필 사진을 매우 쉽게 만들 수 있었습니다.",
+      "3": "AI-HeadShot.net은 브랜드 스타일에 완벽하게 맞는 전문가 수준의 이미지를 제공하여 브랜드 작업을 크게 향상시켰습니다.",
+      "4": "스타트업을 위한 프로필 사진 제작이 이렇게 쉽고 즐거웠던 적은 없었습니다. AI-HeadShot.net은 과정을 가볍고 재미있게 유지하면서 환상적인 결과를 제공합니다.",
+      "5": "AI-HeadShot.net이 창의성과 전문성의 균형을 맞추는 방식이 정말 마음에 듭니다. AI 도구의 유연성 덕분에 재미있으면서도 제 창작 프로젝트에 완벽하게 맞는 프로필 사진을 디자인할 수 있습니다.",
+      "6": "AI-HeadShot.net의 효율성과 품질은 뛰어납니다. 몇 초 만에 스튜디오 수준의 프로필 사진을 만들 수 있었고, 과정도 놀라울 정도로 즐거웠습니다.",
+      "7": "AI-HeadShot.net은 마케팅 캠페인을 위한 귀중한 도구입니다. AI 생성 프로필 사진은 전문적일 뿐만 아니라 독특하고 재미있는 요소가 있어 프로필을 돋보이게 합니다.",
+      "8": "AI-HeadShot.net의 품질과 속도는 인상적입니다. 스튜디오에서 촬영한 것처럼 보이는 전문 프로필 사진을 몇 초 만에 만들 수 있었습니다."
+    }
+  },
+  "InfoLanding": {
+    "title": "창의성을 발휘하세요",
+    "description": "AI-HeadShot.net으로 프로필 사진의 재미와 가능성을 해방하세요. 간단한 스냅샷을 진정한 자신을 반영하는 매력적인 AI 강화 이미지로 변환하세요.",
+    "list": {
+      "title": {
+        "1": "쉽게 만들기",
+        "2": "AI로 개인화",
+        "3": "존재감 높이기"
+      },
+      "description": {
+        "1": "완벽한 프로필 사진을 쉽게 만들 수 있는 매끄럽고 직관적인 프로세스를 즐기세요.",
+        "2": "고급 AI 도구를 사용하여 프로필 사진의 모든 측면을 맞춤 설정하여 당신만의 것으로 만드세요.",
+        "3": "업무든 개인적 용도든, 재미와 전문성을 결합한 프로필 사진으로 온라인 존재감을 돋보이게 하세요."
+      }
+    }
+  },
+  "Features": {
+    "title": "기능 살펴보기",
+    "subtitle": "모든 프로필 사진을 독특하게 만들기 위해 설계된 AI 기반 도구로 창의성을 발휘하세요.",
+    "features": {
+      "1": {
+        "title": "손쉬운 제작",
+        "description": "AI 생성 프로필 사진을 고유한 스타일에 맞게 조정하세요. 직관적인 도구로 모든 세부 사항을 쉽게 조정할 수 있습니다."
+      },
+      "2": {
+        "title": "개인화된 AI",
+        "description": "몇 초 만에 멋진 프로필 사진을 생성하세요. AI의 힘으로 전문가 수준의 이미지를 기다릴 필요가 없습니다."
+      },
+      "3": {
+        "title": "전문가 수준의 품질",
+        "description": "프로필 사진을 개인 또는 직업 프로필에 쉽게 통합하세요. 모든 플랫폼에 최적화된 형식으로 제공됩니다."
+      },
+      "4": {
+        "title": "AI 강화 창의성",
+        "description": "귀하의 데이터는 안전하게 보호됩니다. 개인정보를 우선시하며 프로필 사진이 안전하게 저장되고 공유됩니다."
+      },
+      "5": {
+        "title": "재미있고 매력적",
+        "description": "AI의 힘을 활용하여 창의적인 가능성을 탐색하세요. 다양한 스타일과 룩을 쉽게 시도해 보세요."
+      },
+      "6": {
+        "title": "재미있고 매력적",
+        "description": "재미있고 전문적인 프로필 사진을 만드는 유쾌하고 매력적인 경험을 즐기세요."
+      }
+    }
+  },
+  "NotFound": {
+    "pageNotFound": "페이지를 찾을 수 없습니다.",
+    "backTo": "돌아가기",
+    "homepage": "홈페이지"
+  },
+  "StepsSection": {
+    "step": "단계",
+    "uploadYourSelfies": "셀카 업로드",
+    "uploadYourSelfiesDescription": "다양한 환경에서 얼굴이 잘 보이는 셀카 또는 사진 1~5장을 업로드하세요.",
+    "personalizeYourStyle": "스타일 개인화",
+    "personalizeYourStyleDescription": "다양한 스타일 중에서 선택하거나 사용자 지정 프롬프트를 만들어 진정으로 독특한 프로필 사진을 만드세요.",
+    "instantAIMagic": "즉시 AI 마법",
+    "instantAIMagicDescription": "고급 AI가 몇 초 만에 전문가 수준의 프로필 사진을 생성하여 모든 용도로 사용할 수 있습니다.",
+    "quickAndEasyProcess": "빠르고 쉬운 프로세스",
+    "createFunAndProHeadshotsIn3SimpleSteps": "3가지 간단한 단계로 재미있고 전문적인 프로필 사진 만들기",
+    "experienceTheFastestAITechnologyAtHeadShotsFunForStunningPersonalizedHeadshotsPerfectForEveryOccasion": "모든 순간에 완벽한 멋진 개인화된 프로필 사진을 위해 AI-HeadShot.net의 최고속 AI 기술을 경험하세요."
+  },
+  "CTA": {
+    "title": "나를 멋지게 만들어줘!",
+    "description": "똑같은 셀카에 지치셨나요? 우리의 AI 포토 부스가 활력을 불어넣을 거예요! 멋진 장비 필요 없어요 - 몇 번의 클릭만으로 짠! 세상을 놀라게 할 준비 완료!",
+    "button": "시작하기",
+    "cool_button": "지금 재미있는 프로필 사진 촬영하기!",
+    "cool_title": "AI 마법으로 즉시 전문가급 & 재미있는 프로필 사진",
+    "cool_description": "AI-HeadShot.net을 경험하세요! 몇 초 만에 멋진 전문가급 & 재미있는 초상화를 만들어보세요. 사진작가 필요 없어요."
+  },
+  "BentoGrid": {
+    "customizable_prompts": "사용자 지정 프롬프트",
+    "secure_by_design": "설계부터 안전",
+    "secure_by_design_description": "귀하의 데이터는 최고 수준의 보안으로 보호되어 안심하고 이용하실 수 있습니다.",
+    "usually_in_10_seconds": "일반적으로 10초 이내",
+    "lightning_fast_results": "초고속 결과",
+    "lightning_fast_results_description": "10초 만에 AI 생성 프로필 사진 받기.",
+    "professional_quality": "전문가 수준의 품질",
+    "professional_quality_description": "모든 상황과 목적에 완벽한, 전문 사진 촬영에 필적하는 AI 생성 AI-HeadShot.net.",
+    "effortlessly_fun": "손쉽게 재미있게",
+    "effortlessly_fun_description": "촬영부터 수령까지 매끄럽고 즐거운 프로세스를 즐기세요. 전문적이면서도 재미있습니다.",
+    "superhero": "슈퍼히어로",
+    "witch": "마녀",
+    "clay": "클레이"
+  },
+  "NavBar": {
+    "dashboard": "대시보드",
+    "sign_in": "로그인",
+    "blog": "블로그",
+    "generator-styles": "스타일",
+    "pricing": "가격"
+  },
+  "HeadshotStylePage": {
+    "label": "AI-HeadShot.net 스타일",
+    "title": "모든 순간을 위한 다양한 프로필 사진 스타일",
+    "subtitle": "AI 생성 프로필 사진 스타일의 다양한 컬렉션을 만나보세요. 빠르고 쉬우며 맞춤형으로 제공됩니다!"
+  },
+  "PricingPage": {
+    "metadata": {
+      "title": "가격 – {siteTitle}",
+      "description": "프로필 사진 가격을 살펴보세요."
+    },
+    "label": "가격",
+    "title": "간단하고 투명한 가격",
+    "subtitle": "필요에 맞는 완벽한 플랜을 선택하세요. 숨겨진 요금 없음, 놀라운 일 없음.",
+    "trial_section_description": "모든 플랜에서 7일 무위험 체험. 크레딧 미사용 시 전액 환불.",
+    "1_credit_1_headshot": "1크레딧 = 1프로필 사진",
+    "processing": "처리 중...",
+    "loading": "로딩 중",
+    "purchase": "구매",
+    "most_popular": "가장 인기",
+    "package": "패키지",
+    "price": "가격",
+    "price_per": "개당 가격",
+    "credits": "크레딧",
+    "plans": {
+      "1": {
+        "description": "셀피 스타터: AI 글래머로 가는 첫걸음",
+        "features": "2크레딧"
+      },
+      "2": {
+        "description": "캐주얼 차머: 소셜 미디어 게임에 활력을",
+        "features": "10크레딧"
+      },
+      "3": {
+        "description": "스냅샷 슈퍼스타: 내면의 모델을 깨우세요",
+        "features": "25크레딧"
+      },
+      "4": {
+        "description": "포트레이트 프로: 온라인 존재감을 높이세요",
+        "features": "50크레딧"
+      },
+      "5": {
+        "description": "팀 트랜스포머: 팀 전체를 빛나게 하세요",
+        "features": "100크레딧"
+      },
+      "6": {
+        "description": "헤드샷 헤븐: 무한한 재미를 누리세요",
+        "features": "200크레딧"
+      }
+    }
+  },
+  "PricingPageFAQ": {
+    "title": "자주 묻는 질문",
+    "label": "가격",
+    "subtitle": "가격에 대해 자주 묻는 질문입니다.",
+    "qa": [
+      [
+        "AI-HeadShot.net이 무엇인가요?",
+        "AI-HeadShot.net은 모든 순간에 맞게 개인화된 독특하고 멋진 프로필 사진을 빠르고 쉽게 만들 수 있는 AI 기반 플랫폼입니다."
+      ],
+      [
+        "크레딧 시스템은 어떻게 작동하나요?",
+        "1크레딧 = 1프로필 사진입니다. 다양한 요구에 맞는 여러 크레딧 패키지를 제공합니다. AI 생성 프로필 사진에 사용할 수 있는 크레딧을 구매할 수 있습니다. 더 많은 크레딧을 구매할수록 더 나은 가치를 얻을 수 있습니다."
+      ],
+      [
+        "크레딧 패키지의 가격은 얼마인가요?",
+        "가격은 $2.99부터 시작하며 서비스를 시도하기에 완벽합니다. 더 큰 패키지도 제공하며, 가장 인기 있는 선택은 정기 사용자에게 이상적인 $19.9 플랜 스냅샷 슈퍼스타입니다."
+      ],
+      [
+        "프로필 사진을 사용자 지정하는 데 도움이 되는 기능이 있나요?",
+        "네! 모든 프로필 사진을 독특하게 만들기 위해 설계된 AI 기반 도구를 제공합니다. 다양한 기능을 탐색하여 창의성을 발휘하고 다양한 상황에 맞게 프로필 사진을 개인화할 수 있습니다."
+      ],
+      [
+        "프로필 사진 생성에 사용되는 AI 기술의 속도는 어떻습니까?",
+        "빠르고 효율적인 프로필 사진 생성을 보장하기 위해 사용 가능한 최고속 AI 기술을 사용합니다. 일반적으로 10초입니다. 가능한 한 짧은 시간에 멋진 결과를 제공하는 것이 우리의 목표입니다."
+      ],
+      [
+        "플랫폼에 어떤 사진을 업로드해야 하나요?",
+        "프로필 사진이 가능한 한 정확하도록 정면을 향한 여러 장의 사진을 업로드하는 것이 좋습니다. 이러한 사진은 얼굴이 선명하게/가려지지 않고 보이는 것이어야 합니다. 사진이 선명하고 고품질이며 다른 사람이나 동물이 포함되지 않았는지 확인하세요."
+      ],
+      [
+        "동일한 사진을 여러 프로필 사진에 사용할 수 있나요?",
+        "네, 동일한 사진을 여러 프로필 사진에 사용할 수 있습니다. AI 기술을 통해 단일 사진에서 여러 출력이 가능하므로 동일한 이미지로 다양한 룩과 스타일을 만들 수 있습니다."
+      ]
+    ]
+  },
+  "BlogPage": {
+    "blog": "블로그",
+    "description": "AI-HeadShot.net의 최신 소식 및 업데이트",
+    "categories": "카테고리",
+    "all": "전체",
+    "news": "뉴스",
+    "education": "교육",
+    "more_articles": "더 많은 기사"
+  },
+  "StudioPage": {
+    "studios": "스튜디오",
+    "create_new_studio": "스튜디오 만들기",
+    "create_new_studio_short": "만들기",
+    "your_studios": "내 스튜디오",
+    "a_list_of_all_your_created_studios": "생성한 모든 스튜디오 목록입니다.",
+    "name": "이름",
+    "type": "유형",
+    "headshots": "프로필 사진",
+    "created_at": "생성일",
+    "no_studios_created": "생성된 스튜디오 없음",
+    "you_dont_have_any_studios_yet": "아직 스튜디오가 없습니다. 스튜디오 만들기를 시작하세요.",
+    "error_studio_type_required": "스튜디오 유형을 선택하세요.",
+    "error_studio_name_required": "스튜디오 이름을 입력하세요.",
+    "error_at_least_one_image": "최소 1장의 이미지를 업로드하세요.",
+    "error_max_5_images": "최대 5장의 이미지를 업로드할 수 있습니다.",
+    "error_failed_to_upload_image": "이미지 업로드 실패",
+    "success_studio_created": "스튜디오가 성공적으로 생성되었습니다!",
+    "error_failed_to_create_studio": "스튜디오 생성에 실패했습니다. 다시 시도하세요.",
+    "back_to_dashboard": "대시보드로 돌아가기",
+    "enter_basic_info_for_your_studio": "스튜디오의 기본 정보를 입력하세요",
+    "studio_name": "스튜디오 이름",
+    "this_is_the_name_that_will_be_displayed_for_your_studio": "스튜디오에 표시될 이름입니다.",
+    "studio_type": "스튜디오 유형",
+    "male": "남성",
+    "female": "여성",
+    "kid": "어린이",
+    "select_the_type_of_studio_you_want_to_create": "만들려는 스튜디오 유형을 선택하세요.",
+    "upload_sample_photos": "샘플 사진 업로드",
+    "please_upload_1_5_clear_front_facing_photos_that_meet_the_sample_photo_requirements": "샘플 사진 요구 사항을 충족하는 정면을 향한 선명한 사진 1~5장을 업로드하세요.",
+    "set_as_main": "메인으로 설정",
+    "main": "메인",
+    "creating": "생성 중...",
+    "upload_a_file": "파일 업로드",
+    "or_drag_and_drop": "또는 드래그 앤 드롭",
+    "png_jpg_gif_up_to_10mb": "PNG, JPG, GIF 최대 10MB",
+    "create_studio": "스튜디오 만들기",
+    "sample_photo_requirements": "샘플 사진 요구 사항",
+    "make_sure_your_sample_photos_meet_these_standards": "샘플 사진이 다음 기준을 충족하는지 확인하세요:",
+    "front_and_clear": "정면 & 선명",
+    "multiple_people": "여러 사람",
+    "side_shots": "측면 샷",
+    "blurry_photos": "흐릿한 사진",
+    "obstructing": "가림",
+    "detailed_explanation_for": "상세 설명",
+    "your_studio_name": "스튜디오 이름",
+    "select_studio_type": "스튜디오 유형 선택",
+    "error_failed_to_fetch_prediction_result": "예측 결과 가져오기에 실패했습니다.",
+    "shooting_results": "촬영 결과",
+    "download": "다운로드",
+    "open_in_new_tab": "새 탭에서 열기",
+    "close": "닫기",
+    "your_studio_created_successfully": "스튜디오가 성공적으로 생성되었습니다!",
+    "ready_to_shoot": "촬영 준비되셨나요?",
+    "click_shoot_below_to_begin_creating_your_first_headshot": "아래 '촬영'을 클릭하여 첫 번째 프로필 사진 만들기를 시작하세요.",
+    "each_shoot_generates_a_unique_headshot_even_with_the_same_style_or_prompt_try_multiple_times": "각 촬영은 동일한 스타일이나 프롬프트로도 고유한 프로필 사진을 생성합니다. 여러 번 시도해 보세요.",
+    "studio_updated_successfully": "스튜디오가 성공적으로 업데이트되었습니다!",
+    "failed_to_update_studio_please_try_again": "스튜디오 업데이트에 실패했습니다. 다시 시도하세요.",
+    "studio_deleted_successfully": "스튜디오가 성공적으로 삭제되었습니다!",
+    "failed_to_delete_studio_please_try_again": "스튜디오 삭제에 실패했습니다. 다시 시도하세요.",
+    "edit_studio": "스튜디오 편집",
+    "delete_studio": "스튜디오 삭제",
+    "deleting": "삭제 중...",
+    "delete": "삭제",
+    "cancel": "취소",
+    "are_you_sure_you_want_to_delete_this_studio": "이 스튜디오를 삭제하시겠습니까?",
+    "this_action_cannot_be_undone": "이 작업은 취소할 수 없습니다.",
+    "this_will_permanently_delete_the_studio_and_all_associated_data": "스튜디오와 관련된 모든 데이터가 영구적으로 삭제됩니다.",
+    "save_changes": "변경 사항 저장",
+    "insufficient_credits_please_add_more_credits_to_continue": "크레딧이 부족합니다. 계속하려면 크레딧을 추가하세요.",
+    "select_style": "스타일 선택",
+    "custom": "사용자 지정",
+    "show": "표시",
+    "hide": "숨기기",
+    "advanced_settings": "고급 설정",
+    "custom_prompt_required": "사용자 지정 프롬프트 (필수)",
+    "enter_your_custom_prompt_here": "여기에 사용자 지정 프롬프트를 입력하세요...",
+    "custom_negative_prompt_optional": "사용자 지정 네거티브 프롬프트 (선택)",
+    "enter_your_custom_negative_prompt_here": "여기에 사용자 지정 네거티브 프롬프트를 입력하세요...",
+    "hot": "인기",
+    "new": "신규",
+    "aspect_ratio": "종횡비",
+    "portrait_3_4": "세로 (3:4)",
+    "landscape_4_3": "가로 (4:3)",
+    "square_1_1": "정사각형 (1:1)",
+    "portrait": "세로",
+    "landscape": "가로",
+    "square": "정사각형",
+    "pay_and_shoot": "결제 및 촬영",
+    "from_0_4_headshot": "$0.4/프로필 사진부터",
+    "loading_credits": "크레딧 로딩 중...",
+    "shoot": "촬영",
+    "shooting": "촬영 중...",
+    "failed_to_start_shoot": "촬영 시작 실패",
+    "shooting_failed": "촬영에 실패했습니다. 업로드한 사진을 확인하거나 지원팀에 문의하세요.",
+    "failed_to_start_shoot_please_try_again_or_contact_support": "촬영 시작에 실패했습니다. 다시 시도하거나 지원팀에 문의하세요.",
+    "shoot_started_successfully_1_credit_used": "촬영이 성공적으로 시작되었습니다. 1크레딧 사용.",
+    "processing": "처리 중...",
+    "completed": "완료",
+    "failed": "실패",
+    "our_privacy_policy": "개인정보 보호정책",
+    "if_you_have_any_questions_about_the_photos": "사진의 개인정보에 대한 질문이 있으시면 다음을 검토하세요:"
+  },
+  "Credits": {
+    "credits": "크레딧",
+    "your_current_balance": "현재 잔액",
+    "buy_credits": "크레딧 구매",
+    "check_your_credits_transactions_and_usage": "크레딧 거래 및 사용을 확인하세요.",
+    "if_you_have_any_questions_about_billing_please_contact_us_at": "결제에 대한 질문이 있으시면 다음으로 문의하세요",
+    "billing": "결제",
+    "credits_activity": "크레딧 활동",
+    "30_day_credit_activity_summary": "30일 크레딧 활동 요약",
+    "credits_history": "크레딧 이력",
+    "select_page_size": "페이지 크기 선택",
+    "10_per_page": "페이지당 10개",
+    "20_per_page": "페이지당 20개",
+    "50_per_page": "페이지당 50개",
+    "type": "유형",
+    "amount": "금액",
+    "date": "날짜"
+  },
+  "Settings": {
+    "settings": "설정",
+    "manage_account_settings": "계정 설정을 관리합니다.",
+    "your_name": "이름",
+    "please_enter_a_display_name_you_are_comfortable_with": "표시 이름을 입력하세요.",
+    "max_32_characters": "최대 32자",
+    "save": "저장",
+    "changes": "변경 사항",
+    "your_name_has_been_updated": "이름이 업데이트되었습니다.",
+    "your_name_was_not_updated_please_try_again": "이름이 업데이트되지 않았습니다. 다시 시도하세요.",
+    "something_went_wrong": "문제가 발생했습니다.",
+    "your_avatar": "아바타",
+    "please_enter_a_display_avatar_you_are_comfortable_with": "표시 아바타를 입력하세요.",
+    "max_255_characters": "최대 255자",
+    "your_avatar_has_been_updated": "아바타가 업데이트되었습니다.",
+    "your_avatar_was_not_updated_please_try_again": "아바타가 업데이트되지 않았습니다. 다시 시도하세요.",
+    "something_went_wrong_with_avatar_update": "아바타 업데이트 중 문제가 발생했습니다.",
+    "delete_account": "계정 삭제",
+    "this_is_a_danger_zone_be_careful": "위험 구역입니다 - 주의하세요!",
+    "are_you_sure": "확실합니까?",
+    "permanently_delete_your_account_and_credits": "{siteTitle} 계정과 크레딧을 영구적으로 삭제합니다. 이 작업은 취소할 수 없습니다 - 신중하게 진행하세요."
+  },
+  "payment-status": {
+    "title": "결제 상태",
+    "loading": "결제 상태 로딩 중...",
+    "success": "결제 성공!",
+    "processing": "결제가 처리 중입니다.",
+    "go_to_dashboard": "대시보드로 이동",
+    "return_to_pricing": "가격 페이지로 돌아가기",
+    "missing_session_id": "세션 ID가 없습니다. 결제 링크를 다시 확인하거나 지원팀에 문의하세요."
+  }
+}

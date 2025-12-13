@@ -1,0 +1,424 @@
+{
+  "auth": {
+    "sign_in": "サインイン",
+    "login": "ログイン",
+    "register": "新規登録",
+    "email_login_text": "メールアドレスで",
+    "sign_in_with_google": "Googleでサインイン",
+    "sign_in_with_linkedin": "LinkedInでサインイン",
+    "back": "戻る",
+    "welcome_back": "おかえりなさい",
+    "use_email_to_sign_in": "メールアドレスでAI-HeadShot.netアカウントにサインイン",
+    "don't_have_an_account": "アカウントをお持ちでないですか？",
+    "sign_up": "新規登録",
+    "email": "メールアドレス",
+    "sign_up_with_email": "メールアドレスで登録",
+    "sign_in_with_email": "メールアドレスでサインイン",
+    "or": "または",
+    "continue_with_google": "Googleで続ける",
+    "continue_with_linkedin": "LinkedInで続ける",
+    "create_an_account": "アカウントを作成",
+    "enter_your_email_below_to_create_your_account": "アカウント作成のためメールアドレスを入力してください",
+    "by_clicking_continue_you_agree_to_our": "続行することで、以下に同意したものとみなされます",
+    "terms_of_service": "利用規約",
+    "privacy_policy": "プライバシーポリシー"
+  },
+  "dashboard": {
+    "menu": "メニュー",
+    "options": "オプション",
+    "admin": "管理者",
+    "dashboard": "ダッシュボード",
+    "billing": "請求",
+    "settings": "設定",
+    "homepage": "ホームページ",
+    "mail_support": "サポート",
+    "admin_panel": "管理パネル",
+    "users": "ユーザー",
+    "studios": "スタジオ",
+    "predictions": "予測",
+    "orders": "注文",
+    "log_out": "ログアウト"
+  },
+  "sitefooter": {
+    "sections": {
+      "Company": "会社情報",
+      "Ullr AI Products": "Ullr AI製品",
+      "Resources": "リソース"
+    },
+    "links": {
+      "About": "会社概要",
+      "Terms": "利用規約",
+      "Privacy": "プライバシー",
+      "PixMiller": "PixMiller",
+      "HeadShots fun": "AI-HeadShot.net",
+      "Ullr AI Lab": "Ullr AI Lab",
+      "Pricing": "料金",
+      "Styles": "スタイル",
+      "Blog": "ブログ"
+    },
+    "copyright": "Copyright © 2024. All rights reserved.",
+    "built_by": "開発",
+    "open_source_by": "オープンソース"
+  },
+  "HeroLanding": {
+    "make-photo-successful": "あなたの写真を成功させよう！",
+    "fun_pro_for_every_occasion": "あらゆるシーンに対応、プロ級で楽しい",
+    "headshots_fun": "AI-HeadShot.net",
+    "get_unique_portraits": "AI-HeadShot.netの最速AIを使って、わずか<bold>10秒</bold>でユニークでプロ級のポートレートを作成。スタジオ撮影の<bold>20分の1</bold>の価格で。",
+    "get_your_headshots": "ヘッドショットを作成する"
+  },
+  "Testimonials": {
+    "label": "お客様の声",
+    "title": "お客様からの評価",
+    "subtitle": "世界中のお客様から届いた喜びの声をご覧ください。",
+    "reviews": {
+      "1": "AI-HeadShot.netは私のワークフローを完全に変えました。AIツールは効率的なだけでなく、使っていて楽しく、ヘッドショット作成がプロフェッショナルかつ楽しいものになりました。",
+      "2": "AI-HeadShot.netのおかげで、ソーシャルメディアキャンペーン用のプロフェッショナルなヘッドショットを簡単に作成できました。",
+      "3": "AI-HeadShot.netは、ブランドスタイルに完璧に合ったプロ品質の画像を提供し、ブランド業務を大幅に向上させました。",
+      "4": "スタートアップのヘッドショット作成がこれほど簡単で楽しいものになったことはありません。AI-HeadShot.netは素晴らしい結果を提供しながら、プロセスを軽快で楽しいものにしてくれます。",
+      "5": "AI-HeadShot.netが創造性とプロフェッショナリズムをバランスよく実現している点が気に入っています。AIツールの柔軟性により、楽しくてクリエイティブなプロジェクトに最適なヘッドショットをデザインできます。",
+      "6": "AI-HeadShot.netの効率性と品質は素晴らしいです。数秒でスタジオ品質のヘッドショットを作成でき、プロセスも驚くほど楽しかったです。",
+      "7": "AI-HeadShot.netはマーケティングキャンペーンに貴重なツールです。AI生成のヘッドショットはプロフェッショナルなだけでなく、ユニークで楽しい要素があり、プロフィールを際立たせます。",
+      "8": "AI-HeadShot.netの品質とスピードは印象的です。スタジオで撮影したかのようなプロフェッショナルなヘッドショットを数秒で作成できました。"
+    }
+  },
+  "InfoLanding": {
+    "title": "創造性を解放しよう",
+    "description": "AI-HeadShot.netでヘッドショットの楽しさと可能性を解き放ちましょう。シンプルなスナップショットを、あなたの真の姿を反映する魅力的なAI強化画像に変換します。",
+    "list": {
+      "title": {
+        "1": "簡単に作成",
+        "2": "AIでパーソナライズ",
+        "3": "あなたの存在感を高める"
+      },
+      "description": {
+        "1": "完璧なヘッドショットを簡単に作成できる、シームレスで直感的なプロセスをお楽しみください。",
+        "2": "高度なAIツールを使用してヘッドショットのあらゆる側面をカスタマイズし、あなただけのものにします。",
+        "3": "仕事でもプライベートでも、楽しさとプロフェッショナリズムを兼ね備えたヘッドショットで、オンラインプレゼンスを際立たせましょう。"
+      }
+    }
+  },
+  "Features": {
+    "title": "機能紹介",
+    "subtitle": "AIパワードツールで創造性を解き放ち、あなただけのヘッドショットを作成しましょう。",
+    "features": {
+      "1": {
+        "title": "簡単作成",
+        "description": "AI生成ヘッドショットをあなたのユニークなスタイルに合わせてカスタマイズ。直感的なツールで細部まで簡単に調整できます。"
+      },
+      "2": {
+        "title": "AIパーソナライゼーション",
+        "description": "数秒で素晴らしいヘッドショットを生成。AIの力で、プロ品質の画像を待つ必要はありません。"
+      },
+      "3": {
+        "title": "プロフェッショナル品質",
+        "description": "個人または仕事用のプロフィールに簡単に組み込めます。あらゆるプラットフォームに最適化された形式で提供。"
+      },
+      "4": {
+        "title": "AI強化の創造性",
+        "description": "あなたのデータは安全に保護されています。プライバシーを優先し、ヘッドショットは安全に保存・共有されます。"
+      },
+      "5": {
+        "title": "楽しく魅力的",
+        "description": "AIの力を活用して創造的な可能性を探求。さまざまなスタイルや外観を簡単に試すことができます。"
+      },
+      "6": {
+        "title": "楽しく魅力的",
+        "description": "楽しくてプロフェッショナルなヘッドショット作成の遊び心あふれる魅力的な体験をお楽しみください。"
+      }
+    }
+  },
+  "NotFound": {
+    "pageNotFound": "ページが見つかりません。",
+    "backTo": "戻る",
+    "homepage": "ホームページ"
+  },
+  "StepsSection": {
+    "step": "ステップ",
+    "uploadYourSelfies": "自撮り写真をアップロード",
+    "uploadYourSelfiesDescription": "さまざまなシーンでの顔がはっきり写った自撮り写真または写真を1〜5枚アップロードしてください。",
+    "personalizeYourStyle": "スタイルをパーソナライズ",
+    "personalizeYourStyleDescription": "多様なスタイルから選択するか、カスタムプロンプトを作成して、本当にユニークなヘッドショットを作成します。",
+    "instantAIMagic": "AIの瞬間魔法",
+    "instantAIMagicDescription": "高度なAIが数秒でプロ品質のヘッドショットを生成し、あらゆる用途に対応します。",
+    "quickAndEasyProcess": "迅速で簡単なプロセス",
+    "createFunAndProHeadshotsIn3SimpleSteps": "3つの簡単なステップで楽しくプロ級のヘッドショットを作成",
+    "experienceTheFastestAITechnologyAtHeadShotsFunForStunningPersonalizedHeadshotsPerfectForEveryOccasion": "AI-HeadShot.netの最速AI技術で、あらゆるシーンに最適な、魅力的でパーソナライズされたヘッドショットを体験してください。"
+  },
+  "CTA": {
+    "title": "私をカッコよく見せて！",
+    "description": "いつもの自撮りに飽きた？私たちのAIフォトブースがスパイスアップします！難しい機材は不要 - 数クリックでワオ！世界を驚かせる準備完了！",
+    "button": "始める",
+    "cool_button": "今すぐ楽しいヘッドショットを撮影！",
+    "cool_title": "AIマジックで即座にプロ級＆楽しいヘッドショット",
+    "cool_description": "AI-HeadShot.netを体験！数秒で素晴らしいプロ級＆楽しいポートレートを作成、カメラマン不要。"
+  },
+  "BentoGrid": {
+    "customizable_prompts": "カスタマイズ可能なプロンプト",
+    "secure_by_design": "安全設計",
+    "secure_by_design_description": "あなたのデータは最高レベルのセキュリティで保護され、安心してご利用いただけます。",
+    "usually_in_10_seconds": "通常10秒以内",
+    "lightning_fast_results": "超高速結果",
+    "lightning_fast_results_description": "10秒でAI生成ヘッドショットを取得。",
+    "professional_quality": "プロフェッショナル品質",
+    "professional_quality_description": "プロの写真撮影に匹敵するAI生成AI-HeadShot.net、あらゆるシーンや目的に最適。",
+    "effortlessly_fun": "楽々楽しい",
+    "effortlessly_fun_description": "撮影から受け取りまで、シームレスで楽しいプロセスをお楽しみください。プロフェッショナルであると同時に楽しいです。",
+    "superhero": "スーパーヒーロー",
+    "witch": "魔女",
+    "clay": "クレイ"
+  },
+  "NavBar": {
+    "dashboard": "ダッシュボード",
+    "sign_in": "サインイン",
+    "blog": "ブログ",
+    "generator-styles": "スタイル",
+    "pricing": "料金"
+  },
+  "HeadshotStylePage": {
+    "label": "AI-HeadShot.netスタイル",
+    "title": "あらゆるシーンに対応する多彩なヘッドショットスタイル",
+    "subtitle": "AI生成ヘッドショットスタイルの多様なコレクションをご覧ください。迅速、簡単、そしてあなただけのパーソナライズ！"
+  },
+  "PricingPage": {
+    "metadata": {
+      "title": "料金 – {siteTitle}",
+      "description": "ヘッドショット料金をご覧ください。"
+    },
+    "label": "料金",
+    "title": "シンプルで透明な料金体系",
+    "subtitle": "ニーズに最適なプランを選択してください。隠れた料金はありません、サプライズもありません。",
+    "trial_section_description": "全プランで7日間のリスクフリートライアル。クレジット未使用の場合は全額返金。",
+    "1_credit_1_headshot": "1クレジット = 1ヘッドショット",
+    "processing": "処理中...",
+    "loading": "読み込み中",
+    "purchase": "購入",
+    "most_popular": "最も人気",
+    "package": "パッケージ",
+    "price": "価格",
+    "price_per": "単価",
+    "credits": "クレジット",
+    "plans": {
+      "1": {
+        "description": "セルフィースターター：AIグラマーへの第一歩",
+        "features": "2クレジット"
+      },
+      "2": {
+        "description": "カジュアルチャーマー：ソーシャルメディアゲームをスパイスアップ",
+        "features": "10クレジット"
+      },
+      "3": {
+        "description": "スナップショットスーパースター：内なるモデルを解放",
+        "features": "25クレジット"
+      },
+      "4": {
+        "description": "ポートレートプロ：オンラインプレゼンスを向上",
+        "features": "50クレジット"
+      },
+      "5": {
+        "description": "チームトランスフォーマー：チーム全体を輝かせる",
+        "features": "100クレジット"
+      },
+      "6": {
+        "description": "ヘッドショットヘブン：無制限の楽しさを享受",
+        "features": "200クレジット"
+      }
+    }
+  },
+  "PricingPageFAQ": {
+    "title": "よくある質問",
+    "label": "料金",
+    "subtitle": "料金に関するよくある質問。",
+    "qa": [
+      [
+        "AI-HeadShot.netとは何ですか？",
+        "AI-HeadShot.netは、あらゆるシーンに合わせてパーソナライズされた、ユニークで魅力的なヘッドショットを迅速かつ簡単に作成できるAIパワードプラットフォームです。"
+      ],
+      [
+        "クレジットシステムはどのように機能しますか？",
+        "1クレジット = 1ヘッドショットです。さまざまなニーズに合わせて各種クレジットパッケージを提供しています。AI生成ヘッドショットに使用できるクレジットを購入できます。購入クレジット数が多いほど、よりお得になります。"
+      ],
+      [
+        "クレジットパッケージの料金はいくらですか？",
+        "料金は$2.99から始まり、サービスをお試しいただくのに最適です。より大きなパッケージも提供しており、最も人気のある$19.9プランスナップショットスーパースターは、定期的なユーザーに最適です。"
+      ],
+      [
+        "ヘッドショットをカスタマイズするのに役立つ機能はありますか？",
+        "はい！あなただけのヘッドショットを作成するためのAIパワードツールを提供しています。さまざまな機能を探索して創造性を解き放ち、さまざまなシーンに合わせてヘッドショットをパーソナライズできます。"
+      ],
+      [
+        "ヘッドショット生成に使用されるAI技術の速度はどのくらいですか？",
+        "最速のAI技術を使用して、迅速かつ効率的なヘッドショット生成を保証します。通常10秒です。可能な限り短時間で素晴らしい結果を提供することが私たちの目標です。"
+      ],
+      [
+        "プラットフォームにどのような写真をアップロードすべきですか？",
+        "プロフィール写真をできるだけ正確にするために、正面から撮影した複数の写真をアップロードすることをお勧めします。これらの写真は、顔がはっきりと/遮られずに見えるものでなければなりません。写真は鮮明で高品質であり、他の人や動物が含まれていないことを確認してください。"
+      ],
+      [
+        "同じ写真を複数のヘッドショットに使用できますか？",
+        "はい、同じ写真を複数のヘッドショットに使用できます。AI技術により、1枚の写真から複数の出力が可能なため、同じ画像でさまざまな外観やスタイルを作成できます。"
+      ]
+    ]
+  },
+  "BlogPage": {
+    "blog": "ブログ",
+    "description": "AI-HeadShot.netの最新ニュースとアップデート",
+    "categories": "カテゴリー",
+    "all": "すべて",
+    "news": "ニュース",
+    "education": "教育",
+    "more_articles": "その他の記事"
+  },
+  "StudioPage": {
+    "studios": "スタジオ",
+    "create_new_studio": "スタジオを作成",
+    "create_new_studio_short": "作成",
+    "your_studios": "あなたのスタジオ",
+    "a_list_of_all_your_created_studios": "作成したすべてのスタジオのリスト。",
+    "name": "名前",
+    "type": "タイプ",
+    "headshots": "ヘッドショット",
+    "created_at": "作成日時",
+    "no_studios_created": "スタジオが作成されていません",
+    "you_dont_have_any_studios_yet": "まだスタジオがありません。スタジオの作成を開始してください。",
+    "error_studio_type_required": "スタジオタイプを選択してください。",
+    "error_studio_name_required": "スタジオ名を入力してください。",
+    "error_at_least_one_image": "少なくとも1枚の画像をアップロードしてください。",
+    "error_max_5_images": "最大5枚の画像をアップロードできます。",
+    "error_failed_to_upload_image": "画像のアップロードに失敗しました",
+    "success_studio_created": "スタジオが正常に作成されました！",
+    "error_failed_to_create_studio": "スタジオの作成に失敗しました。もう一度お試しください。",
+    "back_to_dashboard": "ダッシュボードに戻る",
+    "enter_basic_info_for_your_studio": "スタジオの基本情報を入力してください",
+    "studio_name": "スタジオ名",
+    "this_is_the_name_that_will_be_displayed_for_your_studio": "これはスタジオに表示される名前です。",
+    "studio_type": "スタジオタイプ",
+    "male": "男性",
+    "female": "女性",
+    "kid": "子供",
+    "select_the_type_of_studio_you_want_to_create": "作成するスタジオのタイプを選択してください。",
+    "upload_sample_photos": "サンプル写真をアップロード",
+    "please_upload_1_5_clear_front_facing_photos_that_meet_the_sample_photo_requirements": "サンプル写真の要件を満たす、正面から撮影した鮮明な写真を1〜5枚アップロードしてください。",
+    "set_as_main": "メインに設定",
+    "main": "メイン",
+    "creating": "作成中...",
+    "upload_a_file": "ファイルをアップロード",
+    "or_drag_and_drop": "またはドラッグ＆ドロップ",
+    "png_jpg_gif_up_to_10mb": "PNG、JPG、GIF 最大10MB",
+    "create_studio": "スタジオを作成",
+    "sample_photo_requirements": "サンプル写真の要件",
+    "make_sure_your_sample_photos_meet_these_standards": "サンプル写真が以下の基準を満たしていることを確認してください：",
+    "front_and_clear": "正面＆鮮明",
+    "multiple_people": "複数人",
+    "side_shots": "横顔",
+    "blurry_photos": "ぼやけた写真",
+    "obstructing": "遮蔽物",
+    "detailed_explanation_for": "詳細な説明",
+    "your_studio_name": "スタジオ名",
+    "select_studio_type": "スタジオタイプを選択",
+    "error_failed_to_fetch_prediction_result": "予測結果の取得に失敗しました。",
+    "shooting_results": "撮影結果",
+    "download": "ダウンロード",
+    "open_in_new_tab": "新しいタブで開く",
+    "close": "閉じる",
+    "your_studio_created_successfully": "スタジオが正常に作成されました！",
+    "ready_to_shoot": "撮影準備完了？",
+    "click_shoot_below_to_begin_creating_your_first_headshot": "下の「撮影」をクリックして、最初のヘッドショット作成を開始してください。",
+    "each_shoot_generates_a_unique_headshot_even_with_the_same_style_or_prompt_try_multiple_times": "各撮影は、同じスタイルやプロンプトでもユニークなヘッドショットを生成します。複数回お試しください。",
+    "studio_updated_successfully": "スタジオが正常に更新されました！",
+    "failed_to_update_studio_please_try_again": "スタジオの更新に失敗しました。もう一度お試しください。",
+    "studio_deleted_successfully": "スタジオが正常に削除されました！",
+    "failed_to_delete_studio_please_try_again": "スタジオの削除に失敗しました。もう一度お試しください。",
+    "edit_studio": "スタジオを編集",
+    "delete_studio": "スタジオを削除",
+    "deleting": "削除中...",
+    "delete": "削除",
+    "cancel": "キャンセル",
+    "are_you_sure_you_want_to_delete_this_studio": "このスタジオを削除してもよろしいですか？",
+    "this_action_cannot_be_undone": "この操作は元に戻せません。",
+    "this_will_permanently_delete_the_studio_and_all_associated_data": "これによりスタジオと関連するすべてのデータが完全に削除されます。",
+    "save_changes": "変更を保存",
+    "insufficient_credits_please_add_more_credits_to_continue": "クレジットが不足しています。続行するにはクレジットを追加してください。",
+    "select_style": "スタイルを選択",
+    "custom": "カスタム",
+    "show": "表示",
+    "hide": "非表示",
+    "advanced_settings": "高度な設定",
+    "custom_prompt_required": "カスタムプロンプト（必須）",
+    "enter_your_custom_prompt_here": "カスタムプロンプトをここに入力...",
+    "custom_negative_prompt_optional": "カスタムネガティブプロンプト（オプション）",
+    "enter_your_custom_negative_prompt_here": "カスタムネガティブプロンプトをここに入力...",
+    "hot": "人気",
+    "new": "新着",
+    "aspect_ratio": "アスペクト比",
+    "portrait_3_4": "ポートレート（3:4）",
+    "landscape_4_3": "ランドスケープ（4:3）",
+    "square_1_1": "スクエア（1:1）",
+    "portrait": "ポートレート",
+    "landscape": "ランドスケープ",
+    "square": "スクエア",
+    "pay_and_shoot": "支払いと撮影",
+    "from_0_4_headshot": "$0.4/ヘッドショットから",
+    "loading_credits": "クレジットを読み込み中...",
+    "shoot": "撮影",
+    "shooting": "撮影中...",
+    "failed_to_start_shoot": "撮影の開始に失敗しました",
+    "shooting_failed": "撮影に失敗しました。アップロードした写真を確認するか、サポートにお問い合わせください。",
+    "failed_to_start_shoot_please_try_again_or_contact_support": "撮影の開始に失敗しました。もう一度お試しいただくか、サポートにお問い合わせください。",
+    "shoot_started_successfully_1_credit_used": "撮影が正常に開始されました。1クレジット使用。",
+    "processing": "処理中...",
+    "completed": "完了",
+    "failed": "失敗",
+    "our_privacy_policy": "プライバシーポリシー",
+    "if_you_have_any_questions_about_the_photos": "写真のプライバシーについてご質問がある場合は、以下をご確認ください："
+  },
+  "Credits": {
+    "credits": "クレジット",
+    "your_current_balance": "現在の残高",
+    "buy_credits": "クレジットを購入",
+    "check_your_credits_transactions_and_usage": "クレジットの取引と使用状況を確認します。",
+    "if_you_have_any_questions_about_billing_please_contact_us_at": "請求に関するご質問は、こちらまでお問い合わせください",
+    "billing": "請求",
+    "credits_activity": "クレジットアクティビティ",
+    "30_day_credit_activity_summary": "30日間のクレジットアクティビティサマリー",
+    "credits_history": "クレジット履歴",
+    "select_page_size": "ページサイズを選択",
+    "10_per_page": "10件/ページ",
+    "20_per_page": "20件/ページ",
+    "50_per_page": "50件/ページ",
+    "type": "タイプ",
+    "amount": "金額",
+    "date": "日付"
+  },
+  "Settings": {
+    "settings": "設定",
+    "manage_account_settings": "アカウント設定を管理します。",
+    "your_name": "あなたの名前",
+    "please_enter_a_display_name_you_are_comfortable_with": "表示名を入力してください。",
+    "max_32_characters": "最大32文字",
+    "save": "保存",
+    "changes": "変更",
+    "your_name_has_been_updated": "名前が更新されました。",
+    "your_name_was_not_updated_please_try_again": "名前が更新されませんでした。もう一度お試しください。",
+    "something_went_wrong": "エラーが発生しました。",
+    "your_avatar": "あなたのアバター",
+    "please_enter_a_display_avatar_you_are_comfortable_with": "表示アバターを入力してください。",
+    "max_255_characters": "最大255文字",
+    "your_avatar_has_been_updated": "アバターが更新されました。",
+    "your_avatar_was_not_updated_please_try_again": "アバターが更新されませんでした。もう一度お試しください。",
+    "something_went_wrong_with_avatar_update": "アバター更新でエラーが発生しました。",
+    "delete_account": "アカウントを削除",
+    "this_is_a_danger_zone_be_careful": "これは危険ゾーンです - ご注意ください！",
+    "are_you_sure": "本当によろしいですか？",
+    "permanently_delete_your_account_and_credits": "{siteTitle}アカウントとクレジットを完全に削除します。この操作は元に戻せません - 慎重に進めてください。"
+  },
+  "payment-status": {
+    "title": "支払いステータス",
+    "loading": "支払いステータスを読み込み中...",
+    "success": "支払いが成功しました！",
+    "processing": "支払いは処理中です。",
+    "go_to_dashboard": "ダッシュボードへ",
+    "return_to_pricing": "料金ページに戻る",
+    "missing_session_id": "セッションIDが見つかりません。支払いリンクを再度確認するか、サポートにお問い合わせください。"
+  }
+}
