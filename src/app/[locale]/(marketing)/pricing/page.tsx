@@ -9,6 +9,7 @@ import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 import { getTranslations } from 'next-intl/server';
 import { unstable_setRequestLocale } from "next-intl/server";
 
+
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
   const t = await getTranslations('PricingPage');

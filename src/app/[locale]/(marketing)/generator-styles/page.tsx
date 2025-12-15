@@ -6,6 +6,13 @@ import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 import { HeaderSection } from "@/components/shared/header-section";
 import CTA from "@/components/sections/CTA";
 import { unstable_setRequestLocale } from "next-intl/server";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Versatile Headshot Styles",
+  description: "Discover our diverse collection of AI-generated headshot styles. Quick, easy, and personalized just for you!",
+};
+
 
 export default function HeadshotStylePage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
