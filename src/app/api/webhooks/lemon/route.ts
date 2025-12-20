@@ -1,16 +1,21 @@
 // app/api/webhooks/paddle/route.ts
 import { NextResponse } from "next/server"
 import { headers } from "next/headers"
-import { handlePaddleWebhook } from "@/lib/paddle"
+import { handleLemonWebhook } from "@/lib/lemon"
 import { env } from "@/env.mjs"
 
 // ✅ 处理 POST 请求 - 真正的 Paddle webhook
 export async function POST(req: Request) {
   try {
+    const h = headers();
     console.log("🔔 Webhook POST request received")
-    
-    // 1. 获取签名
-    const signature = headers().get("paddle-signature")
+  // Lemon 发送的是 X-Signature（取的时候用小写也行）
+    const signature = h.get("x-signature");
+    const eventName = h.get("x-event-name"); // 有些事件会带这个头（可选）
+    const rawBody = await req.text();
+
+  // 方便你先观察：到底有哪些头
+    console.log("Webhook received", { eventName, hasSig: !!signature });
     
     if (!signature) {
       console.error("❌ Missing paddle-signature header")
@@ -21,13 +26,13 @@ export async function POST(req: Request) {
     }
 
     // 2. 获取原始请求体
-    const rawBody = await req.text()
+    // const rawBody = await req.text()
     
     console.log("📝 Raw body length:", rawBody.length)
     console.log("🔑 Signature present:", !!signature)
     
     // 3. 验证 webhook secret 是否配置
-    const webhookSecret = env.PADDLE_WEBHOOK_SECRET
+    const webhookSecret = env.LEMON_WEBHOOK_SECRET
     
     if (!webhookSecret) {
       console.error("❌ PADDLE_WEBHOOK_SECRET not configured")
@@ -42,7 +47,7 @@ export async function POST(req: Request) {
     
     // 4. 处理 webhook
     console.log("⚙️ Processing webhook...")
-    await handlePaddleWebhook(rawBody, signature)
+    await handleLemonWebhook(rawBody, signature)
     
     console.log("✅ Webhook processed successfully")
     
@@ -67,6 +72,7 @@ export async function POST(req: Request) {
 export async function GET(req: Request) {
   try {
     console.log("🔍 Webhook GET request received (test)")
+    console.debug("req",req.json);
     
     // 检查配置
     const webhookSecret = env.PADDLE_WEBHOOK_SECRET

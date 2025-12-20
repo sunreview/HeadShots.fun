@@ -6,8 +6,8 @@ generator client {
 }
 
 datasource db {
-  provider     = "postgresql"
-  url          = env("DATABASE_URL")
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 enum UserRole {
@@ -50,20 +50,20 @@ model Session {
 }
 
 model User {
-  id            String    @id @default(cuid())
-  name          String?
-  email         String?   @unique
-  emailVerified DateTime?
-  image         String?
-  createdAt     DateTime  @default(now()) @map(name: "created_at")
-  updatedAt     DateTime  @default(now()) @map(name: "updated_at")
-  role          UserRole  @default(USER)
-  credits       Int       @default(0)
-  accounts Account[]
-  sessions Session[]
-  studios Studio[]
-  transactions CreditTransaction[] // 关联到 CreditTransaction 模型
-  paddleTransactions PaddleTransaction[]
+  id                String              @id @default(cuid())
+  name              String?
+  email             String?             @unique
+  emailVerified     DateTime?
+  image             String?
+  createdAt         DateTime            @default(now()) @map(name: "created_at")
+  updatedAt         DateTime            @default(now()) @map(name: "updated_at")
+  role              UserRole            @default(USER)
+  credits           Int                 @default(0)
+  accounts          Account[]
+  sessions          Session[]
+  studios           Studio[]
+  transactions      CreditTransaction[] // 关联到 CreditTransaction 模型
+  lemonTransactions LemonTransaction[]
 
   @@map(name: "users")
 }
@@ -93,10 +93,10 @@ model Studio {
 }
 
 model Prediction {
-  id       String  @id @default(cuid())
+  id        String   @id @default(cuid())
   pId       String?
   studioId  String
-  studio   Studio  @relation("StudioPredictions", fields: [studioId], references: [id], onDelete: Cascade)
+  studio    Studio   @relation("StudioPredictions", fields: [studioId], references: [id], onDelete: Cascade)
   status    String   @default("pending") // "pending", "processing", "completed", "failed"
   style     String?
   imageUrl  String?
@@ -108,12 +108,12 @@ model Prediction {
 
 // 新增 CreditTransaction 模型
 model CreditTransaction {
-  id        String   @id @default(cuid())
+  id        String          @id @default(cuid())
   userId    String
-  user      User     @relation(fields: [userId], references: [id])
+  user      User            @relation(fields: [userId], references: [id])
   amount    Int
   type      TransactionType
-  createdAt DateTime @default(now())
+  createdAt DateTime        @default(now())
 }
 
 enum TransactionType {
@@ -124,19 +124,21 @@ enum TransactionType {
 
 // 添加以下模型到文件末尾
 
-model PaddleTransaction {
-  id                   String   @id @default(cuid())
-  userId               String
-  user                 User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  paddleTransactionId  String   @unique
-  paddlePaymentId      String?
-  amount               Float    // Paddle 使用浮点数
-  credits              Int      // 购买的积分数量
-  status               String   // pending, completed, failed
-  createdAt            DateTime @default(now())
-  updatedAt            DateTime @updatedAt
+model LemonTransaction {
+  id     String @id @default(cuid())
+  userId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  localTxnId   String  @unique
+  lemonOrderId String? @unique
+
+  amount    Decimal  @db.Decimal(10, 2)
+  currency  String   @default("USD")
+  credits   Int
+  status    String // pending, completed, failed, refunded
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   @@index([userId])
-  @@index([paddleTransactionId])
-  @@map(name: "paddle_transactions")
+  @@map(name: "lemon_transactions")
 }

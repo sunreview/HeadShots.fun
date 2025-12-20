@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { createCheckoutSession } from "@/lib/paddle";
+import { createCheckoutSession } from "@/lib/lemon";
 import { prisma } from "@/lib/db";
 
 export async function POST(req: Request) {
@@ -12,12 +12,11 @@ export async function POST(req: Request) {
 
     const session = await createCheckoutSession(amount, quantity, description, userId, emailAddress);
 
-
-    if (!session || !session.transactionId || !session.url) {
+    if (!session || !session.url) {
       throw new Error("Failed to create checkout session");
     }
 
-    return NextResponse.json({ checkoutUrl: session.url , transactionId: session.transactionId});
+    return NextResponse.json({ checkoutUrl: session.url });
   } catch (error) {
     console.error("Error creating checkout session:", error);
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });

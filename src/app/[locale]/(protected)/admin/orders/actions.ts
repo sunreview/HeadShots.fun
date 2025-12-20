@@ -1,7 +1,7 @@
 'use server';
 
 import { prisma } from "@/lib/db";
-import { handleSuccessfulPayment } from "@/lib/paddle";
+import { handleSuccessfulPayment } from "@/lib/lemon";
 
 export async function handleCheck(stripeSessionId: string) {
   try {

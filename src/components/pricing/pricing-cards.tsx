@@ -1,5 +1,4 @@
 "use client";
-import { initializePaddle, Paddle } from '@paddle/paddle-js'
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
@@ -24,40 +23,19 @@ interface PricingCardsProps {
 export function PricingCards({ pricingData, userId, emailAddress }: PricingCardsProps) {
   const router = useRouter();
   const [loadingPlan, setLoadingPlan] = useState<number | null>(null);
-  const [paddle, setPaddle] = useState<Paddle | null>(null); // ✅ 添加 Paddle state
+
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const t = useTranslations('PricingPage');
   const locale = useLocale();
-
-  useEffect(() => {
-    initializePaddle({
-      environment: 'sandbox', // 生产环境改成 'production'
-      token: process.env.NEXT_PUBLIC_PADDLE_CLIENT_TOKEN!,
-    }).then((paddleInstance) => {
-      if (paddleInstance) {
-        setPaddle(paddleInstance);
-        console.log('✅ Paddle 初始化成功');
-      }
-    }).catch((error) => {
-      console.error('❌ Paddle 初始化失败:', error);
-    });
-  }, []);
 
   const handlePurchase = async (plan: typeof pricingData[0], index: number) => {
     if (!userId) {
       toast.error("Please sign in to purchase credits");
       return;
     }
-
-        // ✅ 检查 Paddle 是否已加载
-    if (!paddle) {
-      toast.error("Payment system is loading, please try again in a moment");
-      return;
-    }
-
     setLoadingPlan(index);
     try {
-      const response = await fetch("/api/paddle/create-checkout", {
+      const response = await fetch("/api/lemon/create-checkout", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -79,33 +57,15 @@ export function PricingCards({ pricingData, userId, emailAddress }: PricingCards
 
       // ✅ 修复：正确获取 transactionId
       const data = await response.json();
-      const transactionId =  data.id || data.transactionId; // 兼容两种返回格式
+      const checkoutUrl = data.url || data.checkoutUrl;
 
-      console.log("✅ Transaction ID:", transactionId);
+      console.log("✅ checkoutUrl:", checkoutUrl);
 
-      if (!transactionId) {
-        throw new Error("Invalid transaction ID");
+      if (!checkoutUrl) {
+        throw new Error("Missing checkoutUrl in response");
       }
 
-      // if (!checkoutUrl) {
-      //   throw new Error("Invalid checkout URL");
-      // }
-
-      // 直接重定向 Stripe Checkout 页面
-      // window.location.href = checkoutUrl;
-
-      console.debug("locale",locale);
-
-      paddle.Checkout.open({
-      transactionId: transactionId,
-      settings: {
-          // 可选：支付成功后跳转
-          locale: locale,
-          successUrl: `${window.location.origin}/payment-status?session_id=${transactionId}`,
-        },
-      });
-
-      console.log("✅ Paddle checkout opened");
+      window.location.href = checkoutUrl;
 
     } catch (error) {
       console.error("Error creating checkout session:", error);
@@ -158,7 +118,6 @@ export function PricingCards({ pricingData, userId, emailAddress }: PricingCards
                 index={index}
                 handlePurchase={handlePurchase}
                 isLoading={loadingPlan === index}
-                paddleReady={!!paddle} // ✅ 传递 Paddle 状态
               />
             ))}
           </div>
@@ -182,7 +141,7 @@ export function PricingCards({ pricingData, userId, emailAddress }: PricingCards
   );
 }
 
-function PricingCard({ plan, index, handlePurchase, isLoading , paddleReady}) {
+function PricingCard({ plan, index, handlePurchase, isLoading }) {
   const t = useTranslations('PricingPage');
 
   return (
@@ -212,9 +171,9 @@ function PricingCard({ plan, index, handlePurchase, isLoading , paddleReady}) {
           className="w-full"
           onClick={() => handlePurchase(plan, index)}
           variant={index === 2 ? "default" : "outline"}
-          disabled={isLoading || !paddleReady}
+          disabled={isLoading}
         >
-          {!paddleReady ? t('loading') || 'Loading...' : isLoading ? t('processing') : t('purchase')}
+         {isLoading ? t('processing') : t('purchase')}
         </Button>
       </CardFooter>
     </Card>

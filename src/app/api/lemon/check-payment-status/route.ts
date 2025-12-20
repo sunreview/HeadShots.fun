@@ -1,4 +1,4 @@
-import { handleSuccessfulPayment } from "@/lib/paddle";
+import { handleSuccessfulPayment } from "@/lib/lemon";
 import { NextResponse } from "next/server";
 
 export async function GET(req: Request) {
