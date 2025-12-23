@@ -27,8 +27,8 @@ dependencies:
     specifier: ^1.5.1
     version: 1.5.1
   '@paddle/paddle-node-sdk':
-    specifier: ^3.4.0
-    version: 3.4.0
+    specifier: ^3.5.0
+    version: 3.5.0
   '@prisma/client':
     specifier: ^5.17.0
     version: 5.22.0(prisma@5.22.0)
@@ -2898,8 +2898,8 @@ packages:
     resolution: {integrity: sha512-n5btAxhRt3ws0/7g8tlz5yH1kYbN3DRp4pKQD5F2hueovmn6rasxrlJJgd33+dI9amA2w2OjkV+mxuori4eEJA==}
     dev: false
 
-  /@paddle/paddle-node-sdk@3.4.0:
-    resolution: {integrity: sha512-oBgUo9o2PbVP5GUpLOzWtq9gYQqLzIVZ/gav7PqzrlC/9qRcNagOQ63kD050f3ts8+iSvONqiclMAWGF1aOGEA==}
+  /@paddle/paddle-node-sdk@3.5.0:
+    resolution: {integrity: sha512-/Ac1N5i01/YJhiqOKlfW+Rz+nfhkaCyqpkG2P5ByeUNERNFYbAOkNc/TaXO/Nhgf9r3PoatnXH6YSpEs4KdtjA==}
     engines: {node: '>=20'}
     dev: false
 
