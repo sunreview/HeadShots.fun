@@ -3,7 +3,7 @@
 import { redirect } from "next/navigation";
 import { auth } from "@/auth";
 
-import { paddle } from "@/lib/lemon";
+import { paddle } from "@/lib/paddle";
 import { absoluteUrl } from "@/lib/utils";
 
 export type responseAction = {
