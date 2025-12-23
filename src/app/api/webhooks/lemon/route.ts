@@ -1,7 +1,7 @@
 // app/api/webhooks/paddle/route.ts
 import { NextResponse } from "next/server"
 import { headers } from "next/headers"
-import { handleLemonWebhook } from "@/lib/paddle"
+import { handlePaddleWebhook } from "@/lib/paddle"
 import { env } from "@/env.mjs"
 
 // ✅ 处理 POST 请求 - 真正的 Paddle webhook
@@ -47,7 +47,7 @@ export async function POST(req: Request) {
     
     // 4. 处理 webhook
     console.log("⚙️ Processing webhook...")
-    await handleLemonWebhook(rawBody, signature)
+    await handlePaddleWebhook(rawBody, signature)
     
     console.log("✅ Webhook processed successfully")
     
