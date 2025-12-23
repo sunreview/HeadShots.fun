@@ -1,4 +1,4 @@
-import { paddle } from "@/lib/lemon";
+import { paddle } from "@/lib/paddle";
 import { NextResponse } from "next/server";
 import { env } from "@/env.mjs";
 

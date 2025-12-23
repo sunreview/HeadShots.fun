@@ -1,7 +1,7 @@
 // app/api/webhooks/paddle/route.ts
 import { NextResponse } from "next/server"
 import { headers } from "next/headers"
-import { handleLemonWebhook } from "@/lib/lemon"
+import { handleLemonWebhook } from "@/lib/paddle"
 import { env } from "@/env.mjs"
 
 // ✅ 处理 POST 请求 - 真正的 Paddle webhook
