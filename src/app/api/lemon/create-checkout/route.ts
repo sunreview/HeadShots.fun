@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { createCheckoutSession } from "@/lib/paddle";
+import { createCheckoutSession } from "@/lib/hupi";
 import { prisma } from "@/lib/db";
 
 export async function POST(req: Request) {

@@ -1,48 +1,64 @@
 // app/api/webhooks/paddle/route.ts
 import { NextResponse } from "next/server"
 import { headers } from "next/headers"
-import { handlePaddleWebhook } from "@/lib/paddle"
+import { handleTransactionCompleted } from "@/lib/paddle"
 import { env } from "@/env.mjs"
+import { handleCallback } from "@/lib/hupi";
+import { NextRequest } from "next/server";
 
 // ✅ 处理 POST 请求 - 真正的 Paddle webhook
-export async function POST(req: Request) {
+export async function POST(req: NextRequest) {
   try {
-    console.log("🔔 Webhook POST request received")
-    
-    // 1. 获取签名
-    const signature = headers().get("paddle-signature")
-    
-    if (!signature) {
-      console.error("❌ Missing paddle-signature header")
-      return NextResponse.json(
-        { error: "Missing paddle-signature header" },
-        { status: 400 }
-      )
-    }
 
-    // 2. 获取原始请求体
-    const rawBody = await req.text()
+
+    //     console.log("\n=================================");
+    console.log("⏰ Webhook 收到请求");
+    console.log("=================================\n");
     
-    console.log("📝 Raw body length:", rawBody.length)
-    console.log("🔑 Signature present:", !!signature)
+    // 🔑 关键：虎皮椒使用 URL-encoded 格式，不是 JSON
+    const formData = await req.formData();
     
-    // 3. 验证 webhook secret 是否配置
-    const webhookSecret = env.PADDLE_WEBHOOK_SECRET
+    // 将 formData 转换为普通对象
+    const body: Record<string, any> = {};
+    formData.forEach((value, key) => {
+      body[key] = value;
+    });
     
-    if (!webhookSecret) {
-      console.error("❌ PADDLE_WEBHOOK_SECRET not configured")
-      return NextResponse.json(
-        { error: "Webhook secret not configured" },
-        { status: 500 }
-      )
+    console.log("📦 接收到的数据:", JSON.stringify(body, null, 2));
+
+        // 提取关键字段
+    const {
+      trade_order_id,    // 虎皮椒订单号
+      total_fee,         // 支付金额（元）
+      transaction_id,    // 微信/支付宝交易号
+      open_order_id,     // 虎皮椒内部订单号
+      order_title,       // 订单标题
+      status,            // 订单状态：OD=已支付, CD=已退款, RD=退款中, UD=退款失败
+      nonce_str,         // 你的系统订单号
+      time,              // 时间戳
+      appid,             // 应用ID
+      hash,              // 签名
+    } = body;
+
+    if (status == 'OD') {
+
+        const webhookData = {
+    trade_order_id,
+    total_fee,
+    transaction_id,
+    open_order_id,
+    order_title,
+    status,
+    nonce_str,
+    time,
+    appid,
+    hash,
+  };
+
+    await handleTransactionCompleted(
+        webhookData
+        );
     }
-    
-    console.log("🔑 Webhook secret exists:", !!webhookSecret)
-    console.log("🔑 Webhook secret length:", webhookSecret.length)
-    
-    // 4. 处理 webhook
-    console.log("⚙️ Processing webhook...")
-    await handlePaddleWebhook(rawBody, signature)
     
     console.log("✅ Webhook processed successfully")
     

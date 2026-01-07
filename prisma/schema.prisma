@@ -63,7 +63,7 @@ model User {
   sessions Session[]
   studios Studio[]
   transactions CreditTransaction[] // 关联到 CreditTransaction 模型
-  paddleTransactions PaddleTransaction[]
+  hupiTransactions HupiTransaction[]
 
   @@map(name: "users")
 }
@@ -122,21 +122,20 @@ enum TransactionType {
   REFUND
 }
 
-// 添加以下模型到文件末尾
-
-model PaddleTransaction {
+model HupiTransaction {
   id                   String   @id @default(cuid())
   userId               String
   user                 User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  paddleTransactionId  String   @unique
-  paddlePaymentId      String?
-  amount               Float    // Paddle 使用浮点数
+  hupiOrderId          String   @unique
+  hupiTransactionId    String?  @unique
+  hupiPaymentId        String?
+  amount               Float    // hupi 使用浮点数
   credits              Int      // 购买的积分数量
   status               String   // pending, completed, failed
   createdAt            DateTime @default(now())
   updatedAt            DateTime @updatedAt
 
   @@index([userId])
-  @@index([paddleTransactionId])
-  @@map(name: "paddle_transactions")
+  @@index([hupiTransactionId])
+  @@map(name: "hupi_transactions")
 }

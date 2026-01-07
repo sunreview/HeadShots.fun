@@ -79,32 +79,40 @@ export function PricingCards({ pricingData, userId, emailAddress }: PricingCards
 
       // ✅ 修复：正确获取 transactionId
       const data = await response.json();
-      const transactionId =  data.id || data.transactionId; // 兼容两种返回格式
+// 完整打印,不要用任何嵌套访问
 
+// 分步访问
+console.log('🔍 checkoutUrl存在吗?', data.checkoutUrl);
+console.log('🔍 url字段:', data.checkoutUrl?.url);
+console.log('🔍 用方括号访问url:', data.checkoutUrl['url']);  // ← 加这行试试!
+
+      // const transactionId =  data.id || data.transactionId; // 兼容两种返回格式
+ 
       
 
-      if (!transactionId) {
-        throw new Error("Invalid transaction ID");
-      }
+      // if (!transactionId) {
+      //   throw new Error("Invalid transaction ID");
+      // }
 
       // if (!checkoutUrl) {
       //   throw new Error("Invalid checkout URL");
       // }
 
       // 直接重定向 Stripe Checkout 页面
-      // window.location.href = checkoutUrl;
+      window.location.href =  data.checkoutUrl?.url;
 
-      console.debug("locale",locale);
-      console.log("✅ Transaction ID:", transactionId);
+      // console.debug("locale",locale);
+      // console.log("✅ Transaction ID:", transactionId);
+      // window.location.href = data.url;
 
-      paddle.Checkout.open({
-      transactionId: transactionId,
-      settings: {
-          // 可选：支付成功后跳转
-          locale: locale,
-          successUrl: `${window.location.origin}/payment-status?session_id=${transactionId}`,
-        },
-      });
+      // paddle.Checkout.open({
+      // transactionId: transactionId,
+      // settings: {
+      //     // 可选：支付成功后跳转
+      //     locale: locale,
+      //     successUrl: `${window.location.origin}/payment-status?session_id=${transactionId}`,
+      //   },
+      // });
 
       console.log("✅ Paddle checkout opened");
 
@@ -159,7 +167,7 @@ export function PricingCards({ pricingData, userId, emailAddress }: PricingCards
                 index={index}
                 handlePurchase={handlePurchase}
                 isLoading={loadingPlan === index}
-                paddleReady={!!paddle} // ✅ 传递 Paddle 状态
+                paddleReady={true} // ✅ 传递 Paddle 状态
               />
             ))}
           </div>

@@ -168,33 +168,58 @@ export async function handlePaddleWebhook(
 }
 
 // 处理交易完成
-async function handleTransactionCompleted(transactionData: any) {
-  const transactionId = transactionData.id
-  const customData = transactionData.customData
-  const userId = customData?.userId
-  const credits = parseInt(customData?.credits || "0", 10)
+export async function handleTransactionCompleted(hupiCallbackData: any) {
+  console.debug("hupiCallbackData",hupiCallbackData.json)
+  const transactionId = hupiCallbackData.transaction_id
+  const order_id = hupiCallbackData.trade_order_id
+  console.debug("order_id",order_id)
+
+  const hupiTransaction = await prisma.hupiTransaction.findUnique({
+    where: { hupiOrderId: order_id },
+    include: { user: true } // 可选：如果需要用户的完整信息
+  })
+  
+  if (!hupiTransaction) {
+    console.error("❌ 订单不存在:", order_id);
+    throw new Error(`Transaction not found: ${order_id}`)
+  }
+
+  console.log("✅ 找到订单:", {
+    orderId: order_id,
+    userId: hupiTransaction.userId,
+    credits: hupiTransaction.credits,
+    currentStatus: hupiTransaction.status
+  });
+  
+  // 从订单中获取 userId 和 credits
+  const userId = hupiTransaction.userId
+  const credits = hupiTransaction.credits
 
   if (!userId || !credits) {
     throw new Error("Invalid custom data in transaction")
   }
 
   // 检查是否已处理
-  const existing = await prisma.paddleTransaction.findUnique({
-    where: { paddleTransactionId: transactionId },
+  const existing = await prisma.hupiTransaction.findUnique({
+    where: { hupiOrderId: order_id },
   })
 
   if (existing?.status === "completed") {
     return // 已经处理过
   }
 
-  // 更新交易状态
-  await prisma.paddleTransaction.update({
-    where: { paddleTransactionId: transactionId },
-    data: {
-      status: "completed",
-      paddlePaymentId: transactionData.payments?.[0]?.id || null,
-    },
-  })
+    // 更新 HupiTransaction，插入 transaction_id
+await prisma.hupiTransaction.update({
+  where: { hupiOrderId: order_id },
+  data: {
+    status: "completed",
+    hupiTransactionId: transactionId, // 插入交易ID
+    updatedAt: new Date()
+  }
+})
+
+ console.log("✅ transaction_id 已插入到数据库");
+
 
   // 增加用户积分
   await prisma.user.update({
@@ -218,8 +243,8 @@ async function handleTransactionCompleted(transactionData: any) {
 async function handleTransactionFailed(transactionData: any) {
   const transactionId = transactionData.id
 
-  await prisma.paddleTransaction.update({
-    where: { paddleTransactionId: transactionId },
+  await prisma.hupiTransaction.update({
+    where: { hupiOrderId: transactionId },
     data: { status: "failed" },
   })
 }
@@ -227,8 +252,8 @@ async function handleTransactionFailed(transactionData: any) {
 // 查询支付状态
 export async function handleSuccessfulPayment(transactionId: string) {
   // 先检查数据库
-  const transaction = await prisma.paddleTransaction.findUnique({
-    where: { paddleTransactionId: transactionId },
+  const transaction = await prisma.hupiTransaction.findUnique({
+    where: { hupiOrderId: transactionId },
   })
 
   if (transaction?.status === "completed") {
@@ -237,43 +262,11 @@ export async function handleSuccessfulPayment(transactionId: string) {
 
   // 从 Paddle 获取最新状态
   try {
-    const paddleTransaction = await paddle.transactions.get(transactionId)
-
-    if (paddleTransaction.status !== "completed") {
-      return null // 支付未完成
-    }
-
-    const customData = paddleTransaction.customData as any
-    const userId = customData?.userId
-    const credits = parseInt(customData?.credits || "0", 10)
-
-    if (!userId || !credits) {
-      throw new Error("Invalid custom data in transaction")
-    }
-
     // 更新交易状态
-    const updatedTransaction = await prisma.paddleTransaction.update({
-      where: { paddleTransactionId: transactionId },
+    const updatedTransaction = await prisma.hupiTransaction.update({
+      where: { hupiOrderId: transactionId },
       data: {
         status: "completed",
-        paddlePaymentId: paddleTransaction.id,
-      },
-    })
-
-    // 增加用户积分
-    await prisma.user.update({
-      where: { id: userId },
-      data: {
-        credits: { increment: credits },
-      },
-    })
-
-    // 记录积分交易
-    await prisma.creditTransaction.create({
-      data: {
-        userId,
-        amount: credits,
-        type: "PURCHASE",
       },
     })
 
