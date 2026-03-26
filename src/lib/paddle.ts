@@ -107,15 +107,15 @@ console.log('User exists:', !!userExists);
 
 
     // 保存订单记录到数据库
-    await prisma.paddleTransaction.create({
-      data: {
-        paddleTransactionId: transaction.id,
-        userId,
-        amount: amount,
-        credits: quantity,
-        status: "pending",
-      },
-    })
+    // await prisma.paddleTransaction.create({
+    //   data: {
+    //     paddleTransactionId: transaction.id,
+    //     userId,
+    //     amount: amount,
+    //     credits: quantity,
+    //     status: "pending",
+    //   },
+    // })
 
 
     console.debug("transactionId",transaction.id);

@@ -14,7 +14,7 @@ export async function handleCheck(stripeSessionId: string) {
 }
 
 export async function getTransactions() {
-  return await prisma.paddleTransaction.findMany({
+  return await prisma.hupiTransaction.findMany({
     include: {
       user: {
         select: {
