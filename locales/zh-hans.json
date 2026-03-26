@@ -200,11 +200,11 @@
     "plans": {
       "1": {
         "description": "自拍新手：开启您靓丽的 AI 头像之旅",
-        "features": "2 点数"
+        "features": "3 点数"
       },
       "2": {
         "description": "社交达人：为您的在线形象增添魅力",
-        "features": "10 点数"
+        "features": "12 点数"
       },
       "3": {
         "description": "形象升级：超快速展现您的多面魅力",
@@ -212,11 +212,11 @@
       },
       "4": {
         "description": "专业精英：打造职场精英的完美形象",
-        "features": "50 点数"
+        "features": "65 点数"
       },
       "5": {
         "description": "团队先锋：提升整个团队的视觉形象",
-        "features": "100 点数"
+        "features": "150 点数"
       },
       "6": {
         "description": "无限创意：尽情探索头像的无限可能",

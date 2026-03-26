@@ -201,11 +201,11 @@
     "plans": {
       "1": {
         "description": "셀피 스타터: AI 글래머로 가는 첫걸음",
-        "features": "2크레딧"
+        "features": "3크레딧"
       },
       "2": {
         "description": "캐주얼 차머: 소셜 미디어 게임에 활력을",
-        "features": "10크레딧"
+        "features": "12크레딧"
       },
       "3": {
         "description": "스냅샷 슈퍼스타: 내면의 모델을 깨우세요",
@@ -213,11 +213,11 @@
       },
       "4": {
         "description": "포트레이트 프로: 온라인 존재감을 높이세요",
-        "features": "50크레딧"
+        "features": "65크레딧"
       },
       "5": {
         "description": "팀 트랜스포머: 팀 전체를 빛나게 하세요",
-        "features": "100크레딧"
+        "features": "150크레딧"
       },
       "6": {
         "description": "헤드샷 헤븐: 무한한 재미를 누리세요",
