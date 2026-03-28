@@ -205,7 +205,7 @@ function PricingCard({ plan, index, handlePurchase, isLoading , paddleReady}) {
         <Badge variant="outline" className="mb-2 self-center">
           {plan.quantity} {t('credits')}
         </Badge>
-        <CardTitle className={`${index === 2 ? 'pb-2 text-3xl' : 'text-2xl'} font-bold`}>${plan.price}</CardTitle>
+        <CardTitle className={`${index === 2 ? 'pb-2 text-3xl' : 'text-2xl'} font-bold`}>¥{plan.price}</CardTitle>
         <p className="text-sm text-muted-foreground">{plan.description}</p>
       </CardHeader>
       <CardContent>
