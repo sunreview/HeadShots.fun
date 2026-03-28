@@ -53,7 +53,6 @@ export function ShootModal({ onShootComplete, selectedFiles, type }: ShootModalP
                 method: 'POST',
                 body: formData,
             });
-
             if (!response.ok) {
                 throw new Error('Failed to generate image');
             }

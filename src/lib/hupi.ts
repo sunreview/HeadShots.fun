@@ -61,28 +61,6 @@ export async function createCheckoutSession(
 ) {
     try {
 
-    let priceId;
-
-    if (amount == 3) {
-      priceId = 'pri_01kd2cqca4v1r97z71wrpdpqfe'
-    } else if (amount == 10) {
-      priceId = 'pri_01kd2csakh7ax9mnhspf5qz32e'
-    } else if (amount == 20) {
-      priceId = 'pri_01kd2ctf1b151p39jntq6f0g2j'
-    } else if (amount == 50) {
-      priceId = 'pri_01kd2cvrsdet15engy9xzmj4j0'
-    } else if (amount == 100) {
-      priceId = 'pri_01kd2cwp4yt2k8yj7pr0r9tcse'
-    }
-
-    console.log("[PADDLE] key prefix:", env.PADDLE_API_KEY.slice(0, 24))
-    console.log("[PADDLE] amount:", amount, "quantity:", quantity, "priceId:", priceId)
-
-if (!priceId) {
-  throw new Error(`[PADDLE] priceId is empty. amount=${amount}`)
-}
-
-// 自己的逻辑
 const user = await prisma.user.findUnique({
   where: { id: userId }
 });
@@ -93,7 +71,7 @@ if (!user) {
 
 console.debug("userId",userId);
 
-const orderId = generateOrderId(userId,priceId, quantity.toString())
+const orderId = generateOrderId(userId,amount, quantity.toString())
 
 console.debug("orderId",userId);
 
