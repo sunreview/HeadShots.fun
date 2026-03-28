@@ -182,7 +182,7 @@ export async function startPay({
     total_fee: price,
     title: title ?? "Admin-Web",
     time: Math.floor(Date.now() / 1000),
-    notify_url: `https://censerless-easton-gamily.ngrok-free.dev/api/webhooks/paddle`,
+    notify_url: `${domain}/api/webhooks/paddle`,
     return_url: `${domain}/payment-status?session_id=${orderId}`, // After the user has successfully made the payment, we will automatically redirect the user's browser to this URL.
     callback_url: `${domain}`, // After the user cancels the payment, we may guide the user to redirect to this URL to make the payment again.
     // plugins: string;
