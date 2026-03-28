@@ -1,7 +1,7 @@
 export const pricingData = [
   {
     id: 1,
-    price: 0.6,
+    price: 6,
     quantity: 3,
   },
   {
